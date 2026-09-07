@@ -1,0 +1,45 @@
+{
+  "id": "r03",
+  "variante": "accionable",
+  "semana": "1 al 7 de septiembre de 2026",
+  "titulo": "Lo que pasó en IA esta semana",
+  "caption": "Tres cosas que pasaron en IA esta semana, y qué cambia para tu negocio en cada una. 📌\n\nNo es un resumen de titulares: cada una cierra diciendo qué haces distinto mañana. Y cada una lleva su fuente en el slide — si no puedo enseñarte de dónde salió, no entra.\n\n¿Cuál de las tres te sirve hoy?\n\n⸻\n\n#claudeai #inteligenciaartificial #iaparaemprendedores #productividadconia #negociosconia",
+  "slides": [
+    {
+      "kind": "portadaRecap",
+      "eyebrow": "1 AL 7 DE SEPTIEMBRE",
+      "hook": "Tres cosas que pasaron en IA, y qué puedes hacer con ellas mañana",
+      "tape": "DESLIZA"
+    },
+    {
+      "kind": "noticia",
+      "titular": "CLAUDE BAJÓ 75% EL COSTO DE RELEER",
+      "resumen": "Anthropic recortó el precio de la lectura de caché: pasó a 0.25 dólares por millón de tokens, la cuarta parte de antes.",
+      "fuente": "https://releasebot.io/updates/anthropic",
+      "comprobada": true,
+      "accion": "Revisa si tu herramienta cobra por caché antes de subirte de plan: si le pasas el mismo documento a diario, ese gasto acaba de bajar"
+    },
+    {
+      "kind": "noticia",
+      "titular": "CLAUDE SECURITY REVISA CÓDIGO Y PROPONE PARCHES",
+      "resumen": "El producto de Anthropic que busca vulnerabilidades en código ahora corre sobre Mythos 5.1. Propone el arreglo, pero lo revisa una persona.",
+      "fuente": "https://releasebot.io/updates/anthropic",
+      "comprobada": true,
+      "accion": "Pide que revisen tu código con esto antes del próximo despliegue"
+    },
+    {
+      "kind": "noticia",
+      "titular": "ANTHROPIC SACÓ CLAUDE FABLE 5.1 Y MYTHOS 5.1",
+      "resumen": "Los dos modelos salieron el 1 de septiembre. Mythos es la versión de acceso restringido y es la que mueve Claude Security.",
+      "fuente": "https://releasebot.io/updates/anthropic",
+      "comprobada": true,
+      "accion": "Prueba tu tarea en el modelo que ya tienes antes de cambiarte"
+    },
+    {
+      "kind": "cierreRecap",
+      "pregunta": "¿Cuál de las cinco te sirve hoy?",
+      "cta": "Sígueme para el recap de la próxima semana",
+      "cierre": "Eso fue la semana en IA"
+    }
+  ]
+}

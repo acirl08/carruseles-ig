@@ -1,0 +1,45 @@
+{
+  "id": "r02",
+  "variante": "mecanismo",
+  "semana": "1 al 7 de septiembre de 2026",
+  "titulo": "Lo que pasó en IA esta semana",
+  "caption": "Tres cosas que pasaron en IA esta semana, y qué cambia para tu negocio en cada una. 📌\n\nNo es un resumen de titulares: cada una cierra diciendo qué haces distinto mañana. Y cada una lleva su fuente en el slide — si no puedo enseñarte de dónde salió, no entra.\n\n¿Cuál de las tres te sirve hoy?\n\n⸻\n\n#claudeai #inteligenciaartificial #iaparaemprendedores #productividadconia #negociosconia",
+  "slides": [
+    {
+      "kind": "portadaRecap",
+      "eyebrow": "1 AL 7 DE SEPTIEMBRE",
+      "hook": "Tres cosas que pasaron en IA esta semana, y por qué pasan",
+      "tape": "DESLIZA"
+    },
+    {
+      "kind": "noticia",
+      "titular": "CLAUDE BAJÓ 75% EL COSTO DE RELEER",
+      "resumen": "Anthropic recortó el precio de la lectura de caché: pasó a 0.25 dólares por millón de tokens, la cuarta parte de antes.",
+      "fuente": "https://releasebot.io/updates/anthropic",
+      "comprobada": true,
+      "mecanismo": "Releer la conversación entera en cada mensaje es la mayor parte del gasto: abaratar eso abarata todo lo demás"
+    },
+    {
+      "kind": "noticia",
+      "titular": "CLAUDE SECURITY REVISA CÓDIGO Y PROPONE PARCHES",
+      "resumen": "El producto de Anthropic que busca vulnerabilidades en código ahora corre sobre Mythos 5.1. Propone el arreglo, pero lo revisa una persona.",
+      "fuente": "https://releasebot.io/updates/anthropic",
+      "comprobada": true,
+      "mecanismo": "Encontrar el fallo es lo barato; decidir si el parche rompe otra cosa es lo caro, y por eso lo revisa una persona"
+    },
+    {
+      "kind": "noticia",
+      "titular": "ANTHROPIC SACÓ CLAUDE FABLE 5.1 Y MYTHOS 5.1",
+      "resumen": "Los dos modelos salieron el 1 de septiembre. Mythos es la versión de acceso restringido y es la que mueve Claude Security.",
+      "fuente": "https://releasebot.io/updates/anthropic",
+      "comprobada": true,
+      "mecanismo": "Sacar dos modelos a la vez separa el que cualquiera puede usar del que necesita permiso"
+    },
+    {
+      "kind": "cierreRecap",
+      "pregunta": "¿Cuál de las cinco te sirve hoy?",
+      "cta": "Sígueme para el recap de la próxima semana",
+      "cierre": "Eso fue la semana en IA"
+    }
+  ]
+}

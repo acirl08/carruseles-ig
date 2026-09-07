@@ -32,6 +32,9 @@ export const CSS = CSS_CORTO + `
 
 /* Hueco para la imagen de la cascada. Si el JSON no trae imagen, no se pinta
    nada: un marco vacío es peor que el espacio en blanco. */
+.noticia .sello{margin-top:calc(40px*var(--sc,1));font-family:"Instrument Serif",Georgia,serif;
+ font-style:italic;font-size:calc(46px*var(--sc,1));line-height:1.1;color:var(--accent)}
+
 .noticia .media{margin-top:30px;border:3px solid var(--ink);border-radius:14px;
  overflow:hidden;background:var(--white);max-height:420px;display:flex}
 .noticia .media img{width:100%;object-fit:cover;display:block}
@@ -93,12 +96,19 @@ export function cuerpoRecap(s, variante, n, total) {
         ? `<div class="giro"><span class="et">${etiqueta}</span>${s[campo]}</div>` : '';
       const media = s.imagen?.url
         ? `<div class="media"><img src="${s.imagen.url}" alt=""></div>` : '';
+      // `completo` no lleva campo extra, y sin él el slide queda con 350px muertos.
+      // 13-HUECOS dice que ahí no sirve subir el ts: hace falta un elemento más.
+      // El que corresponde es el dominio de la fuente en grande — es lo que este
+      // formato promete: el titular y de dónde salió.
+      const sello = (variante === 'completo' && !giro && !media)
+        ? `<div class="sello">${String(s.fuente).replace(/^https?:\/\/(www\.)?/, '').split('/')[0]}</div>` : '';
       return `
       <div class="num">${n}/${total}</div>
       <p class="tit" style="--ts:${tam(s.ts, '72px')}">${s.titular}</p>
       <p class="res">${s.resumen}</p>
       ${giro}
       ${media}
+      ${sello}
       <div class="src">Fuente: ${s.fuente}</div>`;
     }
 

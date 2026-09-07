@@ -41,6 +41,13 @@ function revisa(d, nombre) {
   const slides = d.slides ?? [];
   if (!slides.length) return [`${nombre}: sin slides`];
   if (slides[0]?.kind !== 'portadaRecap') h.push('el primer slide tiene que ser portadaRecap');
+  // Medido sobre los cuatro mazos: 55 caracteres deja 503px de aire y check-corto
+  // lo reporta; 57 pasa (comprobado). Se mide en CARACTERES y no en palabras porque el titular
+  // se dibuja por longitud — 11 palabras cortas ocupan menos que 9 largas, y con la
+  // regla en palabras un mazo de 11 seguía saliendo hueco.
+  const hook = limpio(slides[0]?.hook);
+  if (hook && hook.length < 57)
+    h.push(`la portada tiene ${hook.length} caracteres; hacen falta 57 o el slide queda hueco`);
   if (slides.at(-1)?.kind !== 'cierreRecap') h.push('el último slide tiene que ser cierreRecap');
 
   const noticias = slides.filter(s => s.kind === 'noticia');
@@ -76,6 +83,12 @@ function revisa(d, nombre) {
 
     if (v.campo && !limpio(s[v.campo]))
       h.push(`${donde}: la variante "${d.variante}" exige "${v.campo}" (${v.desc})`);
+
+    // `completo` no lleva campo extra, así que el resumen es lo único que llena el
+    // slide. Medido: por debajo de ~26 palabras quedan más de 300px de hueco y
+    // check-corto lo reporta. En las otras variantes el giro rellena y no aplica.
+    if (d.variante === 'completo' && s.resumen && palabras(s.resumen) < 26)
+      h.push(`${donde}: el resumen tiene ${palabras(s.resumen)} palabras; en "completo" hacen falta 26 o el slide queda hueco`);
 
     if (s.titular && palabras(s.titular) > 8)
       h.push(`${donde}: el titular tiene ${palabras(s.titular)} palabras; el máximo es 8`);

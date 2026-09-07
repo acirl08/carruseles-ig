@@ -95,7 +95,7 @@ autorización está dada y el orden real de la cola está en `06`.
 | Reddit como fuente | el proxy rechaza `reddit.com` en `allowed_domains`, y Reddit bloquea el indexado fuera de Google desde 2024 |
 | Apify para raspar competidores | ~$3/mes, pero **nunca puede devolver guardados ni compartidos** de un carrusel de feed, que son justo las señales que importan |
 | Publicación automática en Buffer | publicaría sin música |
-| Metricool para publicar | 20 al mes, no alcanza para 5 por semana |
+| Metricool para publicar | ~~20 al mes~~ — ese argumento caducó. La razón vigente es que Buffer tiene modo notificación, que es lo que permite poner música |
 
 `WebSearch` sí corre sin aprobación, y sobre eso está construido el motor de señal.
 

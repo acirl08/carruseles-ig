@@ -31,7 +31,7 @@ cambia aquí, con fecha y con el motivo.
 
 | Decisión | Cuándo | Por qué |
 |---|---|---|
-| **Buffer**, no Metricool | 2 sep | Metricool tope 20/mes: no alcanza para 5/semana. Buffer salía en cero con 10 en cola; desde el 7 sep el plan de pago lo sube a 5000 y el tope deja de importar |
+| **Buffer**, no Metricool | 2 sep | El argumento original era de topes (Metricool 20/mes vs. Buffer 10 en cola) y **caducó el 7 sep**, cuando el plan de pago subió Buffer a 5000. La decisión se sostiene por otra razón, que era la de fondo: Buffer permite `schedulingType: notification`, y ese es el modo que deja a Isabela poner música al publicar. Sin música el carrusel no entra a Reels |
 | **Modo notificación**, nunca automático | 2 sep | es la única forma de ponerle música, y sin música el carrusel no entra a Reels |
 | Martes y jueves, 7 pm de Monterrey | 2 sep | los largos. Los cortos van lunes, miércoles y viernes |
 | **Quitar largos de la cola para meter cortos**, y reponerlos | 2 sep | *"quito de la cola los últimos largos para dejarle espacio a los cortos y los repongo conforme se vacíe"*. **Autorización dada: no hace falta volver a preguntar** |

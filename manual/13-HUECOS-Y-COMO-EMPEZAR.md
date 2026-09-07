@@ -188,6 +188,7 @@ antes.
 | "dieciocho guardas sin prueba detrás" (`09`, `10`, `11`) | ídem |
 | "22 cortos pendientes" | ídem, y su ubicación es el hueco B1 |
 | "151 milisegundos" del c06, "28 investigadores / 8 horas / 150 métodos" del c07 | vienen de fuentes leídas en su momento; **ningún script del carril largo las respalda** |
-| Metricool 20/mes · Apify ~$3/mes | no verificables aquí |
+| Apify ~$3/mes | no verificable aquí |
+| ~~Metricool 20/mes~~ | irrelevante desde el 7 sep: la decisión de Buffer ya no se apoya en topes sino en el modo notificación |
 | ~~Buffer 10 en cola~~ | **verificado el 7 sep con `get_account`: el tope es 5000** desde que subió de plan. El 10 era cierto con el plan gratuito |
 | "11 de las 13 cuentas de referencia hacen reels a cámara" | conteo hecho sobre capturas que ya no están en el entorno |

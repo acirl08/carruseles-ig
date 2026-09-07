@@ -1,7 +1,7 @@
 import { chromium } from 'playwright';
 import fs from 'fs'; import path from 'path';
 const files = fs.readdirSync('build').filter(f=>f.endsWith('.html')).sort();
-const b = await chromium.launch({executablePath:'/opt/pw-browsers/chromium'});
+const b = await chromium.launch({executablePath: process.env.CHROMIUM_PATH || '/opt/pw-browsers/chromium'});
 const problems=[];
 for (const f of files){
   const p = await b.newPage({viewport:{width:1160,height:1400}});

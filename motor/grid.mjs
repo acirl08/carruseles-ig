@@ -1,7 +1,7 @@
 import { chromium } from 'playwright';
 import fs from 'fs'; import path from 'path';
 const files = fs.readdirSync('build').filter(f=>f.endsWith('.html')).sort();
-const b = await chromium.launch({executablePath:'/opt/pw-browsers/chromium'});
+const b = await chromium.launch({executablePath: process.env.CHROMIUM_PATH || '/opt/pw-browsers/chromium'});
 for (const f of files){
   const id = f.slice(0,3);
   const outdir = path.join('out', id); fs.mkdirSync(outdir,{recursive:true});

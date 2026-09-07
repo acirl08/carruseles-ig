@@ -13,7 +13,7 @@ raiz="$(pwd)"
 command -v node >/dev/null || { echo "falta node (brew install node)"; exit 1; }
 command -v python3 >/dev/null || echo "aviso: falta python3, check-titulares.py no correrá"
 
-for d in motor corto; do
+for d in motor corto recap; do
   echo "→ $d"
   (cd "$d" && npm i --silent --no-audit --no-fund)
 done

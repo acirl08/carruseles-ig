@@ -98,6 +98,22 @@ function revisa(d, nombre) {
       h.push(`${donde}: la imagen no dice de dónde salió. Pon "imagen.licencia" o quítala`);
   }
 
+  // Dos noticias distintas apuntando a la MISMA página es la grieta por la que
+  // pasó el fraude del primer mazo: una URL genérica sirve de coartada para varias
+  // afirmaciones que no están todas ahí. Compartir fuente es legítimo si la página
+  // cubre las dos —el anuncio de un lanzamiento que trae varias novedades—, así que
+  // avisa en vez de caerse, pero obliga a mirarlo.
+  const porFuente = new Map();
+  for (const [i, s2] of noticias.entries()) {
+    const u = limpio(s2.fuente);
+    if (!u) continue;
+    porFuente.set(u, [...(porFuente.get(u) ?? []), i + 1]);
+  }
+  for (const [u, cuales] of porFuente) {
+    if (cuales.length > 1)
+      console.log(`  aviso: las noticias ${cuales.join(', ')} citan la MISMA fuente (${u.slice(0, 46)}). Comprueba que respalde todas, no solo una.`);
+  }
+
   if (!limpio(d.caption)) h.push('falta el caption');
   return h.map(x => `${nombre}: ${x}`);
 }

@@ -1,1 +1,13 @@
 .DS_Store
+
+# dependencias: se instalan con preparar.sh
+node_modules/
+package-lock.json
+
+# generado por preparar.sh, distinto en cada máquina
+entorno.sh
+
+# artefactos de los pipelines
+build/
+out/
+corto/pruebas/.tmp/

@@ -66,6 +66,14 @@ function revisa(d, nombre) {
     if (s.fuente && !/^https?:\/\/\S+\.\S+/.test(limpio(s.fuente)))
       h.push(`${donde}: "fuente" tiene que ser una URL — llegó "${limpio(s.fuente).slice(0, 40)}"`);
 
+    // Que la URL tenga forma de URL NO prueba que respalde la noticia. Este fallo
+    // ya se cometió: tres de cinco noticias del primer mazo citaban una página que
+    // no decía lo que el slide afirmaba, y este validador las aprobó. `comprobada`
+    // es una declaración atribuible, igual que `verificado` en el corto: no prueba
+    // nada por sí sola, pero impide que una fuente pase sin que alguien la abriera.
+    if (s.fuente && s.comprobada !== true)
+      h.push(`${donde}: abre "${limpio(s.fuente).slice(0, 50)}" y confirma que dice lo que afirma el slide. Luego pon "comprobada": true`);
+
     if (v.campo && !limpio(s[v.campo]))
       h.push(`${donde}: la variante "${d.variante}" exige "${v.campo}" (${v.desc})`);
 

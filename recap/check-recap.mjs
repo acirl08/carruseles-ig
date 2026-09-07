@@ -20,8 +20,8 @@ const VARIANTES = {
   negocio:    { campo: 'paraTi',    min: 3, max: 7,  desc: 'qué cambia para tu negocio' },
   mecanismo:  { campo: 'mecanismo', min: 3, max: 7,  desc: 'por qué pasa' },
   accionable: { campo: 'accion',    min: 3, max: 6,  desc: 'qué haces mañana' },
-  // 8 y no más: Instagram topa en 10 imágenes y hacen falta portada y cierre.
-  completo:   { campo: null,        min: 6, max: 8,  desc: 'solo qué pasó' },
+  // Hasta 18 noticias: con portada y cierre son 20, el tope de la app.
+  completo:   { campo: null,        min: 6, max: 18, desc: 'solo qué pasó' },
 };
 
 const limpio = s => String(s ?? '').replace(/<[^>]*>/g, '').trim();
@@ -47,9 +47,13 @@ function revisa(d, nombre) {
   if (noticias.length < v.min || noticias.length > v.max)
     h.push(`${noticias.length} noticias; la variante "${d.variante}" admite entre ${v.min} y ${v.max}`);
 
-  // Instagram topa los carruseles en 10 imágenes (03-CARRUSEL-LARGO.md).
+  // DOS topes distintos: la API de publicación va a 10, la app a 20 desde agosto
+  // de 2024. Aquí manda el de la app, porque este sistema no publica por API —
+  // Buffer avisa e Isabela publica a mano para poner la música.
+  if (slides.length > 20)
+    h.push(`${slides.length} slides: el tope de la app son 20. Parte el recap en dos`);
   if (slides.length > 10)
-    h.push(`${slides.length} slides: Instagram topa en 10. Parte el recap en dos publicaciones`);
+    console.log(`  aviso: ${slides.length} slides. Cabe publicando A MANO desde la app (tope 20), no por API (tope 10). Comprueba que tu cuenta tenga los 20.`);
 
   const vistos = new Set();
   for (const [i, s] of noticias.entries()) {

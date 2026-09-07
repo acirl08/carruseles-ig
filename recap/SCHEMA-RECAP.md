@@ -12,7 +12,7 @@ que el largo y el corto conviven hoy con reglas distintas.
 | `negocio` | 7 | quien tiene un negocio y usa IA | qué pasó + **qué cambia para ti** |
 | `mecanismo` | 7 | quien quiere entender | qué pasó + **por qué pasa** |
 | `accionable` | 5-6 | quien quiere hacer algo hoy | qué pasó + **qué haces mañana** |
-| `completo` | 10 | quien quiere no perderse nada | qué pasó, sin más |
+| `completo` | hasta 20 | quien quiere no perderse nada | qué pasó, sin más |
 
 **El mismo motor de señal alimenta las cuatro**, y de ahí sale la eficiencia: se buscan las
 noticias una vez y se reparten según lo que cada variante pide. La misma noticia puede salir
@@ -22,10 +22,25 @@ Ojo con una cosa: `05-MOTOR-DE-SENAL.md` detecta duplicados **por el arreglo**. 
 que expliquen la misma noticia con el mismo enfoque son el mismo post dos veces. Lo que las
 separa tiene que ser el **ángulo**, no solo el recorte.
 
-`completo` es el más parecido a la referencia, pero **no puede llegar a sus 17**: la API de
-Instagram topa los carruseles en 10 imágenes (`03-CARRUSEL-LARGO.md`), así que con portada y
-cierre caben **8 noticias**. evolving.ai publica 17 porque usa varias publicaciones; aquí, si
-una semana hay más de ocho, se parte en dos.
+### El tope de 10 no aplica aquí, y esto corrige lo que decía `03`
+
+Son **dos topes distintos**, y confundirlos costó una vuelta:
+
+| Vía | Tope |
+|---|---|
+| API de publicación (la que usa Buffer) | **10** |
+| App de Instagram, publicando a mano | **20**, desde agosto de 2024 |
+
+`03-CARRUSEL-LARGO.md` dice que el esquema bajó de 11 a 10 slides porque *"la API de
+publicación de Instagram topa los carruseles en 10 imágenes"*. Eso sigue siendo cierto **para
+la API**. Pero este sistema **no publica por API**: Buffer avisa e Isabela publica desde el
+teléfono, porque la música no se puede poner por API (`07-AUTOMATIZACION.md`, paso 13).
+
+Así que el tope real aquí es **20**, y por eso `@evolving.ai` puede publicar 17 en una sola
+pieza. Vale la pena revisar si el carril largo también podría volver a 11 por lo mismo.
+
+*(Ojo: el 20 no está en todas las cuentas — se reporta que algunas antiguas siguen en 10.
+Compruébalo en la app antes de armar un mazo de 17.)*
 
 Es legítimo como formato aparte —cubre a quien solo quiere el titular— pero **no debe ser el
 único**: `11-DECISIONES.md` dice que no se copian estrategias de competidores, y publicar solo

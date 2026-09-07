@@ -54,6 +54,31 @@ ese sería exactamente eso.
 | 2..n-1 | `noticia` | una por slide |
 | n | `cierreRecap` | pregunta abierta + seguir + compartir |
 
+## La regla que decide si el recap sirve
+
+**Saber que algo salió no es información. Lo útil es qué hace que antes no se podía.**
+
+Comparar:
+
+> ✗ *"GPT-6 Astra salió el 3 de septiembre. Es el modelo nuevo de OpenAI."*
+> → no te deja saber nada. Es una fecha y un nombre.
+>
+> ✓ *"Trabaja dentro del software en vez de decirte qué hacer: navega, analiza datos y
+> arma hojas de cálculo por su cuenta."*
+> → ahora sabes qué es y puedes decidir si te sirve.
+
+La referencia que dio origen a este carril lo hace bien: no dice *"Dyson sacó un cepillo de
+dientes con IA"*, dice *"usa una cámara de 100.000 píxeles entrenada con 470.000 imágenes
+dentales para localizar los huecos entre los dientes y dispara un chorro de enjuague en 100
+milisegundos"*. Eso te deja **viendo la cosa funcionar**.
+
+`check-recap.mjs` caza el resumen que solo anuncia. Si un lanzamiento no tiene nada que
+contar más allá de que ocurrió, **no es noticia**: déjalo fuera o mételo en la de "cuántas
+empresas lanzaron esta semana", que ahí el patrón sí es la noticia.
+
+Y el mismo criterio manda en el campo de la variante: `paraTi` no puede ser *"espera a ver"*
+ni *"nada por ahora"*. Si de verdad no cambia nada para quien lee, esa noticia sobra.
+
 ## El slide `noticia`
 
 | Campo | Obligatorio | Qué es |

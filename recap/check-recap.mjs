@@ -90,6 +90,17 @@ function revisa(d, nombre) {
     if (d.variante === 'completo' && s.resumen && palabras(s.resumen) < 26)
       h.push(`${donde}: el resumen tiene ${palabras(s.resumen)} palabras; en "completo" hacen falta 26 o el slide queda hueco`);
 
+    // El resumen tiene que decir QUÉ HACE la cosa, no que existe. Un resumen que
+    // solo anuncia el lanzamiento produce un slide vacío de información: "salió el
+    // modelo X" no le sirve a nadie. Se caza por las señales del anuncio sin
+    // sustancia — verbos de lanzamiento sin nada detrás.
+    const res = limpio(s.resumen).toLowerCase();
+    const soloAnuncia = /^(sali[óo]|se lanz[óo]|lleg[óa]|anunci[óa]|present[óa]|est[áa] disponible|ya est[áa])/.test(res)
+      || /^(el|la|los|las)?\s*\w+\s+(sali[óo]|se lanz[óo]|lleg[óo])\b/.test(res);
+    const traeSustancia = /\b(hace|puede|usa|permite|cuesta|pasa a|navega|analiza|pregunta|confirma|revisa|corre|genera|lee|escribe|reduce|sube|baja|dólares|tokens|%)\b/.test(res);
+    if (soloAnuncia && !traeSustancia)
+      h.push(`${donde}: el resumen solo dice que la cosa salió. Di QUÉ HACE que antes no se podía, o no es noticia para nadie`);
+
     if (s.titular && palabras(s.titular) > 8)
       h.push(`${donde}: el titular tiene ${palabras(s.titular)} palabras; el máximo es 8`);
     if (s.titular && limpio(s.titular) !== limpio(s.titular).toUpperCase())

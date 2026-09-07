@@ -88,6 +88,21 @@ Por cada noticia, en este orden:
 las usa; aquí no, porque el sistema las publicaría 52 veces al año sin que nadie revise el
 derecho de cada una.
 
+## El pipeline
+
+```bash
+cd recap
+node build-recap.mjs      # valida, comprueba las fuentes ABRIÉNDOLAS, y construye
+node shots-recap.mjs      # HTML -> PNG 1080x1350
+cd ../corto && CORTO_BUILD=../recap/build node check-corto.mjs   # geometría
+```
+
+`build-recap.mjs` corre `comprobar-fuentes.mjs` **por dentro**, no como paso aparte: el fraude
+del primer mazo pasó porque nadie se acordó de correrlo. Si una fuente no respalda su slide,
+no se construye nada.
+
+`--sin-fuentes` lo salta para trabajar sin red, y avisa en cada corrida. No publiques así.
+
 ## Cifras
 
 Las noticias traen cifras ("$12.9B", "45% menos"). Cada una necesita `fuente` en su slide —

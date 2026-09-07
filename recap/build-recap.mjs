@@ -41,6 +41,23 @@ if (val.status !== 0) {
   process.exit(1);
 }
 
+// Y las fuentes se comprueban ABRIÉNDOLAS, no confiando en `comprobada: true`.
+// Va aquí y no como paso aparte porque el fraude pasó justo así: nadie se acordó
+// de correrlo. `--sin-fuentes` existe para trabajar sin red, y avisa fuerte.
+if (process.argv.includes('--sin-fuentes')) {
+  console.log('AVISO: saltando la comprobación de fuentes. No publiques así.\n');
+} else {
+  const f = spawnSync('node', [path.join(AQUI, 'comprobar-fuentes.mjs')], {
+    encoding: 'utf8', env: { ...process.env, RECAP_DATA: DATA },
+  });
+  process.stdout.write(f.stdout || '');
+  if (f.status !== 0) {
+    console.error('\nno se construyó nada: hay fuentes que no respaldan su slide.');
+    console.error('arregla la noticia o cambia la fuente. Con --sin-fuentes lo saltas, bajo tu riesgo.');
+    process.exit(1);
+  }
+}
+
 if (!existsSync(BUILD)) mkdirSync(BUILD, { recursive: true });
 
 const archivos = readdirSync(DATA).filter(f => f.endsWith('.json')).sort();

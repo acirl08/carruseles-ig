@@ -25,6 +25,21 @@ quién lo tiene que hacer. **Si algo se rompió: `13-HUECOS-Y-COMO-EMPEZAR.md`.*
 | 12 | `12-SELECCION-SEMANA-37.md` | La corrida real del motor de señal, con lo que se cayó y por qué |
 | 13 | `13-HUECOS-Y-COMO-EMPEZAR.md` | **Qué hacer cuando algo falla, y qué NO explica este manual** |
 
+## Este manual vive en dos sitios
+
+Desde el 7 de septiembre está también en **`manual/` del repo**, para que la tarea del domingo
+pueda leerlo: esa sesión arranca vacía y solo alcanza los documentos del proyecto y el repo.
+
+La copia del repo es la que lee la máquina. Cuando edites aquí, **súbela**:
+
+```bash
+cd ~/Downloads/repo && cp ~/Downloads/manual-isaiscoding_1/*.md manual/ && \
+  git add -A && git commit -m "actualiza el manual" && git push
+```
+
+Dos copias que pueden divergir es una deuda conocida, no un descuido. Si algún día molesta,
+la solución es borrar la de Downloads y trabajar directo sobre `repo/manual/`.
+
 ## Cómo se relaciona esto con los docs del proyecto
 
 Dos de estos archivos existen también como **documentos del proyecto en claude.ai**, porque

@@ -1,0 +1,72 @@
+{
+  "id": "Fixture",
+  "titulo": "Base válida para las pruebas de guardas",
+  "audiencia": "emprendedores",
+  "etiqueta": "NEGOCIO",
+  "nota": "Siete beats sin fusión. Cierre de alcance: pregunta, seguir y compartir. Sin keyword ni DM.",
+  "caption": "Le pediste a Claude que escribiera como tú y salió un folleto. Le cambiaste el prompt tres veces y siguió sonando a otra persona. ✍️\n\nNo es que escribas raro: es que le describiste tu estilo en vez de mostrárselo. \"Profesional pero cercano\" no le dice nada, porque esas dos palabras significan cosas distintas para cada quien. Lo que sí le dice algo son tus textos reales — tres correos que ya mandaste, sin maquillar, y uno que suene a lo que quieres evitar.\n\nY antes de pedirle que escriba, pídele que te describa: qué patrones ve en cómo escribes. Si acierta, ya lo entendió. Si no, ahí supiste que le faltaban ejemplos, no adjetivos.\n\n¿Qué texto tuyo le pasarías primero?\n\n⸻\n\n#claudeai #inteligenciaartificial #iaparaemprendedores #productividadconia #aprendeia",
+  "slides": [
+    {
+      "kind": "portada",
+      "ts": "116px",
+      "hook": "Le pediste a <span class=\"o\">Claude</span> que escribiera como tú y salió un folleto",
+      "tape": "¿Te ha pasado?"
+    },
+    {
+      "kind": "diagnostico",
+      "ts": "94px",
+      "copy": "No es que escribas raro. Es que nunca le enseñaste cómo escribes.",
+      "boc": "La mentira que te cuentas: <em>«es que la IA no tiene mi estilo»</em>. No lo tiene porque no se lo diste. Le diste instrucciones, no ejemplos."
+    },
+    {
+      "kind": "credibilidad",
+      "ts": "98px",
+      "verificado": true,
+      "copy": "Lo veo en los negocios que asesoro",
+      "boc": "Me piden que suene <em>profesional pero cercano</em> y no le pasan un solo correo suyo. Le describen el tono en vez de mostrárselo."
+    },
+    {
+      "kind": "concepto",
+      "ts": "100px",
+      "copy": "Tu estilo no se describe. Se muestra.",
+      "lista": [
+        {
+          "nombre": "TRES TEXTOS TUYOS",
+          "descripcion": "Correos, mensajes, publicaciones. Reales, ya enviados, sin maquillar."
+        },
+        {
+          "nombre": "UNO QUE NO ERES TÚ",
+          "descripcion": "Algo que suene a lo que quieres evitar. El contraste enseña más que el adjetivo."
+        },
+        {
+          "nombre": "QUÉ CAMBIA Y QUÉ NO",
+          "descripcion": "Qué se adapta según a quién le escribes, y qué se queda igual siempre."
+        }
+      ]
+    },
+    {
+      "kind": "solucion",
+      "ts": "98px",
+      "copy": "Pégale tus textos antes de pedirle nada",
+      "dato": "Que te describa primero. Si acierta, ya lo entendió.",
+      "boc": "«Aquí van tres correos que escribí yo. <em>Antes de escribir nada</em>, dime qué patrones ves: qué tan largo, qué tanto explico, qué palabras repito.»"
+    },
+    {
+      "kind": "resultado",
+      "ts": "88px",
+      "copy": "Dejas de corregir tono y empiezas a corregir contenido",
+      "pale": true,
+      "boc": "En mis pruebas el cambio no es que escriba mejor: es que deja de sonarte ajeno. Corriges lo que dice, no cómo lo dice.",
+      "verificado": true
+    },
+    {
+      "kind": "final",
+      "ts": "104px",
+      "copy": "Muestra. No describas.",
+      "ask": "¿Qué texto tuyo le pasarías primero?",
+      "follow": "Sígueme para más",
+      "send": "Mándaselo a quien escribe con IA."
+    }
+  ],
+  "captionNoEsMetrica": "«tres veces» cuenta los intentos del lector, no afirma ningún resultado."
+}

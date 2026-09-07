@@ -1,0 +1,246 @@
+{
+  "id": "Carrusel 03",
+  "titulo": "Misma pregunta, otra respuesta",
+  "audiencia": "emprendedores",
+  "nota": "Diez slides. Lo único fijo es el óvalo con el número y el titular subrayado; de ahí para abajo cada slide se compone distinto.",
+  "caption": "Pegas exactamente el mismo mensaje y te llega otra cosa 🎲 No, no la bajaron de calidad esta semana.\n\nEn cada palabra no elige la mejor opción: escoge una entre varias probables, con un dado cargado hacia lo esperable. Ese dado trae un ajuste que define cuánto se le permite salirse de lo obvio, y casi nunca lo eliges tú ⚡ Una palabra distinta al principio cambia todo lo que sigue.\n\nPor eso la respuesta que \"suena mejor\" no es la más correcta, es la más fluida 🔍 Si el resultado tiene que ser igual siempre, el criterio tiene que estar fuera de la IA ✨\n\n¿Cuántas veces has repetido el mismo prompt esperando que salga mejor?\n\n⸻\n\n#claudeai #inteligenciaartificial #IAaplicada #herramientasIA #productividaddigital",
+  "poses": [
+    {
+      "id": "p13",
+      "slide": 1,
+      "desc": "Facing a plain silver laptop head-on with one paw resting on the keyboard as if it had just pasted the same text again; its crest is fully upright with the three feathers separated."
+    },
+    {
+      "id": "p14",
+      "slide": 2,
+      "desc": "Seen in profile beside the laptop, head turning between the screen and a plain mug as if comparing two things at once; its crest is fully upright with the three feathers separated."
+    },
+    {
+      "id": "p15",
+      "slide": 5,
+      "desc": "In front of the laptop with its head tilted to one side, hesitating between two loose sheets of paper; its crest is at half mast and tilted to one side."
+    },
+    {
+      "id": "p16",
+      "slide": 8,
+      "desc": "Body facing front, looking at three identical sheets of paper lined up in a row next to a plain mug; its crest is neutral and its body faces front."
+    },
+    {
+      "id": "p17",
+      "slide": 9,
+      "desc": "Sitting beside the closed laptop in a loose, settled posture with a plain mug nearby; its crest is relaxed and settled down."
+    },
+    {
+      "id": "p18",
+      "slide": 10,
+      "desc": "Seen at three quarters, calm next to a plain mug, looking straight at the reader; its crest is relaxed and settled down."
+    }
+  ],
+  "slides": [
+    {
+      "n": 1,
+      "kind": "cover",
+      "eyebrow": "PEGASTE EXACTAMENTE EL MISMO MENSAJE",
+      "hook": "Misma pregunta, <em>otra respuesta</em>",
+      "tape": "Y a veces salió mejor.",
+      "art": {
+        "type": "pichu",
+        "id": "p13",
+        "pos": "big",
+        "fallback": "laptop"
+      }
+    },
+    {
+      "n": 2,
+      "kind": "ciclo",
+      "ts": "76px",
+      "title": "Eliges la respuesta que te gustó, no la que sirve",
+      "chain": [
+        [
+          "Pides lo mismo dos veces",
+          "salen dos respuestas distintas"
+        ],
+        [
+          "No sabes cuál sirve",
+          "las comparas a ojo"
+        ],
+        [
+          "Gana la que más te gustó",
+          "confundes \"me gustó\" con \"está bien\""
+        ],
+        [
+          "Guardas el prompt como fórmula",
+          "mañana esa fórmula da otra cosa"
+        ]
+      ],
+      "band": {
+        "lab": "DONDE SE ROMPE",
+        "txt": "Guardas el prompt como fórmula."
+      },
+      "art": {
+        "type": "pichu",
+        "id": "p14",
+        "pos": "bl",
+        "fallback": "ciclo"
+      }
+    },
+    {
+      "n": 3,
+      "kind": "quotes",
+      "ts": "90px",
+      "title": "No lo estás imaginando",
+      "quotes": [
+        "«Ayer salió mejor.»",
+        "«Ya la bajaron de calidad.»",
+        "«¿Es cosa tuya o es de ella?»"
+      ],
+      "solid": "La variación viene de fábrica, no de tu prompt.",
+      "card": "Ninguna de las tres explica lo que pasó.",
+      "art": {
+        "type": "doodle",
+        "id": "burbujas",
+        "pos": "bl",
+        "h": 250
+      }
+    },
+    {
+      "n": 4,
+      "kind": "concepto",
+      "ts": "72px",
+      "title": "No elige la mejor palabra:<br><em>tira un dado cargado</em>",
+      "defn": "En cada palabra escoge una entre varias probables. El dado está cargado hacia lo esperable, pero <span class=\"hl\">sigue siendo un dado</span>.",
+      "box": [
+        "Le dicen temperatura:",
+        "cuánto se le permite salirse de lo obvio."
+      ],
+      "pp": {
+        "h": "En pocas palabras:",
+        "t": "Una palabra distinta al principio cambia todo lo que sigue."
+      },
+      "art": {
+        "type": "doodle",
+        "id": "dado",
+        "pos": "bl",
+        "h": 240
+      }
+    },
+    {
+      "n": 5,
+      "kind": "stack",
+      "ts": "80px",
+      "title": "La que suena mejor no es la más correcta",
+      "lines": [
+        "Entre dos respuestas distintas, eliges la más fluida.",
+        "Fluida no es lo mismo que cierta.",
+        "Cuando repites hasta que salga bien, no estás mejorando el resultado."
+      ],
+      "band": {
+        "lab": "LO QUE DE VERDAD HACES",
+        "txt": "Estás escogiendo el tiro que más te gustó."
+      },
+      "art": {
+        "type": "pichu",
+        "id": "p15",
+        "pos": "br",
+        "fallback": "onda"
+      }
+    },
+    {
+      "n": 6,
+      "kind": "negs",
+      "ts": "88px",
+      "title": "Lo que esto no significa",
+      "negs": [
+        "No significa que esté descompuesta.",
+        "No significa que la hayan capado esta semana.",
+        "No significa que exista un prompt mágico que fije la respuesta."
+      ],
+      "si": "Sí significa que si el resultado tiene que ser igual siempre, el criterio va en otro lado.",
+      "art": {
+        "type": "doodle",
+        "id": "ojo",
+        "pos": "cc",
+        "h": 250
+      }
+    },
+    {
+      "n": 7,
+      "kind": "nums",
+      "ts": "72px",
+      "title": "Cuatro preguntas antes de culpar tu prompt",
+      "nums": [
+        "¿Qué le pusieron encima? Cada asistente trae instrucciones de fábrica que no ves.",
+        "¿Con qué material aprendió y hasta cuándo?",
+        "¿Qué le premiaron? A uno lo ajustaron para sonar prudente, a otro para ser resolutivo.",
+        "¿Cuánta libertad de variar le dejaron?"
+      ],
+      "label": "Ese ajuste del dado casi nunca lo eliges tú.",
+      "art": {
+        "type": "doodle",
+        "id": "lupa",
+        "pos": "br",
+        "h": 230
+      }
+    },
+    {
+      "n": 8,
+      "kind": "caso",
+      "ts": "80px",
+      "title": "Tres asuntos de correo, un mismo dado",
+      "lab": "LO QUE PASÓ",
+      "lines": [
+        "Le pides a Claude el mismo asunto tres veces seguidas.",
+        "Dos salen planos, el tercero está buenísimo.",
+        "Mismo día, mismo modelo, mismo texto.",
+        "Por eso pedir varias versiones y elegir funciona mejor que pedir «la mejor» una vez."
+      ],
+      "foot": "No mejoró: sacaste otro tiro del mismo dado.",
+      "art": {
+        "type": "pichu",
+        "id": "p16",
+        "pos": "br",
+        "fallback": "sobre"
+      }
+    },
+    {
+      "n": 9,
+      "kind": "checks",
+      "ts": "90px",
+      "title": "Lo que sí depende de ti",
+      "checks": [
+        "Pide varias versiones, no «la mejor».",
+        "Define el criterio antes de leer.",
+        "Lo que debe salir exacto no se deja al chat.",
+        "Guarda la respuesta buena, no nada más el prompt.",
+        "Misma tarea y mismo asistente para poder comparar.",
+        "Si cambió y tú no cambiaste nada, fue el dado."
+      ],
+      "band": {
+        "lab": "LO QUE NO SE REINICIA",
+        "txt": "Si cambió sin que tú cambiaras, fue el dado."
+      },
+      "art": {
+        "type": "pichu",
+        "id": "p17",
+        "pos": "bl",
+        "fallback": "ancla"
+      }
+    },
+    {
+      "n": 10,
+      "kind": "final",
+      "ts": "58px",
+      "title": "Repite. Compara. Elige con criterio. Guarda lo bueno.",
+      "ask": "¿Cuántas veces has repetido el mismo prompt esperando que salga mejor?",
+      "follow": "Sígueme para más",
+      "send": "Mándaselo a quien le pasa esto.",
+      "tape": "Explico cómo funciona la IA por dentro, para que dejes de adivinar.",
+      "art": {
+        "type": "pichu",
+        "id": "p18",
+        "pos": "cc",
+        "fallback": "taza"
+      }
+    }
+  ]
+}

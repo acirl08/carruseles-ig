@@ -1,0 +1,249 @@
+{
+  "id": "Carrusel 06",
+  "titulo": "Por qué te interrumpe o te deja hablando solo",
+  "audiencia": "emprendedores",
+  "nota": "Diez slides. Lo único fijo es el óvalo con el número y el titular subrayado; de ahí para abajo cada slide se compone distinto.",
+  "caption": "Le hablas a tu asistente de voz, haces una pausa para pensar y ya te está contestando encima. O terminas la frase y se queda mudo. 🎙️\n\nTú no esperas el silencio: lo adivinas. Al conversar empiezas a hablar 151 milisegundos antes de que la otra persona termine, porque predices el final. Tu asistente hace justo lo contrario: espera a oír silencio para arrancar. Por eso o te corta, o te deja hablando solo. Y no hay ajuste perfecto: quien contesta rápido termina interrumpiendo, y quien nunca interrumpe termina haciéndote esperar. ✋\n\n¿Qué prefieres que le pase a tu cliente: que lo corten o que lo dejen esperando?\n\n⸻\n\n#claudeai #inteligenciaartificial #iaparaemprendedores #asistentesdevoz #negociosconia",
+  "poses": [
+    {
+      "id": "p31",
+      "slide": 1,
+      "desc": "Standing in front of an old desk telephone with its beak half open mid-word and one wing raised as if asking for a moment, its crest is fully upright with the three feathers separated."
+    },
+    {
+      "id": "p32",
+      "slide": 4,
+      "desc": "Seen in profile in front of two overlapping speech bubbles, head tilted while measuring which one comes first, its crest is at half mast and tilted to one side."
+    },
+    {
+      "id": "p33",
+      "slide": 5,
+      "desc": "Standing at the center of a simple two-pan balance with one foot barely lifted, unable to decide, its crest is at half mast and tilted to one side."
+    },
+    {
+      "id": "p34",
+      "slide": 7,
+      "desc": "Standing beside an open notebook with one wing resting on it, in the posture of someone about to take notes, its crest is neutral and its body faces front."
+    },
+    {
+      "id": "p35",
+      "slide": 8,
+      "desc": "Looking toward an empty low three-step podium with its head turned to the side, its crest is neutral and its body faces front."
+    },
+    {
+      "id": "p36",
+      "slide": 10,
+      "desc": "Seen in profile looking slightly up and out of frame with its feet together, next to a switched-off desk microphone, its crest is relaxed and settled down."
+    }
+  ],
+  "slides": [
+    {
+      "n": 1,
+      "kind": "cover",
+      "eyebrow": "HACES UNA PAUSA Y YA TE ESTÁ RESPONDIENDO ENCIMA",
+      "hook": "Le hablas y te corta.<br>Te callas y <em>no contesta</em>",
+      "tape": "¿Te ha pasado?",
+      "art": {
+        "type": "pichu",
+        "id": "p31",
+        "pos": "big",
+        "fallback": "megafono"
+      }
+    },
+    {
+      "n": 2,
+      "kind": "ciclo",
+      "ts": "72px",
+      "title": "El asistente de voz no sabe cuándo terminaste de hablar",
+      "chain": [
+        [
+          "Haces una pausa",
+          "cree que ya terminaste y arranca"
+        ],
+        [
+          "Te interrumpe",
+          "hablas más rápido para que no lo haga"
+        ],
+        [
+          "Hablas más rápido",
+          "se traba y te pide que repitas"
+        ],
+        [
+          "Repites",
+          "la llamada dura el doble de lo que debía"
+        ]
+      ],
+      "band": {
+        "lab": "CÓMO ACABA SIEMPRE",
+        "txt": "Al final tú te acomodas a la máquina."
+      },
+      "art": {
+        "type": "doodle",
+        "id": "burbujas",
+        "pos": "bl",
+        "h": 250
+      }
+    },
+    {
+      "n": 3,
+      "kind": "costo",
+      "ts": "90px",
+      "title": "No es tu acento ni tu micrófono",
+      "quotes": [
+        "«Habla encima de mí.»",
+        "«Se queda callada como si no me oyera.»",
+        "«Mejor le escribo.»"
+      ],
+      "solid": "No, no lo estás usando mal. Nadie le enseñó a escuchar.",
+      "art": {
+        "type": "doodle",
+        "id": "microfono",
+        "pos": "br",
+        "h": 240
+      }
+    },
+    {
+      "n": 4,
+      "kind": "concepto",
+      "ts": "86px",
+      "title": "Tú no esperas el silencio:<br><em>lo adivinas</em>",
+      "defn": "Al conversar empiezas a hablar <span class=\"hl\">151 milisegundos</span> antes de que el otro termine. No esperas el silencio: predices el final.",
+      "box": [
+        "Tu asistente hace lo contrario: espera a oír silencio para arrancar.",
+        "Por eso o te corta, o se queda callado de más."
+      ],
+      "pp": {
+        "h": "En pocas palabras:",
+        "t": "Predecir no es lo mismo que esperar."
+      },
+      "art": {
+        "type": "pichu",
+        "id": "p32",
+        "pos": "bl",
+        "fallback": "arena"
+      }
+    },
+    {
+      "n": 5,
+      "kind": "stack",
+      "ts": "76px",
+      "title": "No existe el ajuste perfecto: existe una decisión",
+      "lines": [
+        "Si contesta rápido, tarde o temprano te va a cortar.",
+        "Si nunca te corta, tarde o temprano te va a dejar esperando.",
+        "Nadie tiene las dos cosas al mismo tiempo."
+      ],
+      "band": {
+        "lab": "QUIÉN DECIDIÓ",
+        "txt": "Alguien ya eligió por ti cuál de los dos errores prefiere."
+      },
+      "art": {
+        "type": "pichu",
+        "id": "p33",
+        "pos": "cr",
+        "fallback": "balanza"
+      }
+    },
+    {
+      "n": 6,
+      "kind": "negs",
+      "ts": "88px",
+      "title": "Qué significa esto y qué no",
+      "negs": [
+        "No significa que el sistema esté mal hecho.",
+        "No significa que hablar más fuerte lo arregle.",
+        "No significa que el más caro escuche mejor."
+      ],
+      "si": "Sí significa que te toca elegir qué error le duele menos a tu cliente.",
+      "art": {
+        "type": "doodle",
+        "id": "semaforo",
+        "pos": "cc",
+        "h": 250
+      }
+    },
+    {
+      "n": 7,
+      "kind": "nums",
+      "ts": "72px",
+      "title": "Cinco preguntas antes de poner voz en tu negocio",
+      "nums": [
+        "¿Qué duele más aquí: cortar al cliente o dejarlo esperando?",
+        "¿Tu cliente habla con pausas largas? Entonces necesitas paciencia, no velocidad.",
+        "¿La llamada es para agendar rápido o para resolver un enojo? Cambia la respuesta.",
+        "Pruébalo tú, en voz alta, antes de soltarlo con gente real.",
+        "Cuenta cuántas veces te interrumpe en diez llamadas seguidas."
+      ],
+      "label": "Eliges un error, no una marca.",
+      "art": {
+        "type": "pichu",
+        "id": "p34",
+        "pos": "br",
+        "fallback": "libro"
+      }
+    },
+    {
+      "n": 8,
+      "kind": "vs",
+      "ts": "76px",
+      "title": "Dos asistentes conocidos, dos decisiones opuestas",
+      "cols": [
+        [
+          "EL QUE MÁS ACIERTA",
+          "De 14 sistemas de voz comparados, el de tiempo real de OpenAI es el mejor detectando que ya terminaste, y también el que más te corta sin razón."
+        ],
+        [
+          "EL QUE MÁS ESPERA",
+          "El de Google te corta poco, pero a veces se queda esperando. Los tres primeros lugares fueron sistemas académicos, no productos grandes."
+        ]
+      ],
+      "foot": "Y quien publicó la prueba no incluyó ninguno de sus propios asistentes.",
+      "art": {
+        "type": "pichu",
+        "id": "p35",
+        "pos": "bl",
+        "fallback": "escalera"
+      }
+    },
+    {
+      "n": 9,
+      "kind": "checks",
+      "ts": "84px",
+      "title": "Lo que sí te conviene recordar",
+      "checks": [
+        "Interrumpir y dejar esperando son el mismo problema.",
+        "Ningún sistema hace bien las dos cosas.",
+        "Elige el error que tu cliente sí perdona.",
+        "Pruébalo hablando, nunca leyendo.",
+        "El más grande no es el que mejor escucha.",
+        "Fíjate también en quién no aparece en la lista."
+      ],
+      "band": {
+        "lab": "PARA NO OLVIDAR",
+        "txt": "Escuchar no es esperar el silencio."
+      },
+      "art": {
+        "type": "doodle",
+        "id": "ancla",
+        "pos": "bl",
+        "h": 240
+      }
+    },
+    {
+      "n": 10,
+      "kind": "final",
+      "ts": "64px",
+      "title": "Escucha. Prueba. Decide.<br>Vuelve a escuchar.",
+      "ask": "¿Qué prefieres que le pase a tu cliente: que lo corten o que lo dejen esperando?",
+      "follow": "Sígueme para más",
+      "send": "Mándaselo a quien le pasa esto.",
+      "tape": "Explico la IA sin humo, para que elijas con criterio y no por moda.",
+      "art": {
+        "type": "pichu",
+        "id": "p36",
+        "pos": "cc",
+        "fallback": "campana"
+      }
+    }
+  ]
+}

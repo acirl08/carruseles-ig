@@ -1,0 +1,239 @@
+{
+  "id": "Carrusel 04",
+  "titulo": "El prompt mágico que en tus manos no hace nada",
+  "audiencia": "emprendedores",
+  "nota": "Diez slides. Lo único fijo es el óvalo con el número y el titular subrayado; de ahí para abajo cada slide se compone distinto.",
+  "caption": "Tienes guardado un prompt larguísimo que alguien juró que era mágico, y en tus manos no cambia nada. No es tu redacción. ✨\n\nUn prompt no es un conjuro: es contexto. Lo único que mueve la respuesta es lo que reduce opciones — quién lo va a leer, para qué, en qué formato, con qué ejemplo. Los emojis y los \"es muy importante\" no quitan ambigüedad, solo ocupan lugar. Por eso el prompt de tres líneas bien dirigido le gana a la página de veinte reglas.\n\n¿Qué quedaría de tu prompt favorito si le quitas todo lo que no da información?\n\n⸻\n\n#claudeai #inteligenciaartificial #promptsutiles #productividad #emprendimiento",
+  "poses": [
+    {
+      "id": "p19",
+      "slide": 1,
+      "desc": "Standing in front of a plain silver laptop with its wings hanging at its sides, staring at the screen without reacting, one foot resting on the laptop base and the other on the floor; its crest is fully upright with the three feathers separated."
+    },
+    {
+      "id": "p20",
+      "slide": 3,
+      "desc": "Sitting beside a plain mug, body sunk down and beak propped on the edge of the desk; its crest is fully upright with the three feathers separated."
+    },
+    {
+      "id": "p21",
+      "slide": 4,
+      "desc": "Tilting its head to one side in front of the open laptop, as if it had just heard something different; its crest is at half mast and tilted to one side."
+    },
+    {
+      "id": "p22",
+      "slide": 6,
+      "desc": "Standing next to the plain mug, looking straight at the reader; its crest is neutral and its body faces front."
+    },
+    {
+      "id": "p24",
+      "slide": 10,
+      "desc": "Sitting upright beside a closed plain laptop with one wing lifted in a small wave; its crest is relaxed and settled down."
+    }
+  ],
+  "slides": [
+    {
+      "n": 1,
+      "kind": "cover",
+      "eyebrow": "LO GUARDASTE PORQUE ALGUIEN JURÓ QUE ERA ORO",
+      "hook": "El prompt mágico que <em>en tus manos</em> no hace nada",
+      "tape": "¿Y si el problema no es cómo escribes?",
+      "art": {
+        "type": "pichu",
+        "id": "p19",
+        "pos": "big",
+        "fallback": "laptop"
+      }
+    },
+    {
+      "n": 2,
+      "kind": "ciclo",
+      "ts": "74px",
+      "title": "El prompt que copiaste fue escrito para otro problema",
+      "chain": [
+        [
+          "Copias plantillas de internet",
+          "funcionan para el caso de quien las escribió"
+        ],
+        [
+          "Nunca dices qué es un buen resultado",
+          "te entrega lo genérico"
+        ],
+        [
+          "Le agregas adornos y mayúsculas",
+          "sigue igual"
+        ],
+        [
+          "Cada intento es más largo",
+          "el resultado se vuelve más blando"
+        ]
+      ],
+      "band": {
+        "lab": "DONDE TERMINA",
+        "txt": "Más largo no es más claro."
+      },
+      "art": {
+        "type": "doodle",
+        "id": "hilo",
+        "pos": "bl",
+        "h": 250
+      }
+    },
+    {
+      "n": 3,
+      "kind": "costo",
+      "ts": "90px",
+      "title": "No es que no sepas escribir",
+      "quotes": [
+        "«Le puse todo y sigue igual.»",
+        "«Ha de ser que no sé escribir prompts.»",
+        "«Al final lo hago yo más rápido.»"
+      ],
+      "solid": "Casi nada de lo que agregaste le dio información nueva.",
+      "art": {
+        "type": "pichu",
+        "id": "p20",
+        "pos": "br",
+        "fallback": "taza"
+      }
+    },
+    {
+      "n": 4,
+      "kind": "concepto",
+      "ts": "84px",
+      "title": "Un prompt no es un conjuro,<br><em>es contexto</em>",
+      "defn": "Lo único que mueve la respuesta es lo que <span class=\"hl\">reduce opciones</span>. Quién lo va a leer. Para qué. En qué formato. Con qué ejemplo.",
+      "box": [
+        "Los emojis y los \"es muy importante\" no quitan ambigüedad:",
+        "solo ocupan lugar."
+      ],
+      "pp": {
+        "h": "En pocas palabras:",
+        "t": "Lo que no reduce opciones, no cambia la respuesta."
+      },
+      "art": {
+        "type": "pichu",
+        "id": "p21",
+        "pos": "bl",
+        "fallback": "foco"
+      }
+    },
+    {
+      "n": 5,
+      "kind": "split",
+      "ts": "84px",
+      "title": "El prompt largo también tiene techo",
+      "lines": [
+        "Más instrucciones no es más control.",
+        "Cuando pides diez cosas a la vez, unas pesan y otras se diluyen. Las de en medio son las que se pierden.",
+        "Una página con veinte reglas se cumple a medias."
+      ],
+      "band": {
+        "lab": "LO QUE NO SE NOTA",
+        "txt": "Y no te avisa cuáles ignoró."
+      },
+      "art": {
+        "type": "doodle",
+        "id": "papel",
+        "pos": "inl"
+      }
+    },
+    {
+      "n": 6,
+      "kind": "negs",
+      "ts": "90px",
+      "title": "Qué no significa esto",
+      "negs": [
+        "No significa que los prompts largos sean malos.",
+        "No significa que exista un formato oficial.",
+        "No significa que necesites un curso."
+      ],
+      "si": "Sí significa que sirve lo que quita ambigüedad. Lo demás es decoración.",
+      "art": {
+        "type": "pichu",
+        "id": "p22",
+        "pos": "cc",
+        "fallback": "ojo"
+      }
+    },
+    {
+      "n": 7,
+      "kind": "nums",
+      "ts": "72px",
+      "title": "Cuatro formas de pedirle que piense por partes",
+      "nums": [
+        "Pide el trabajo por partes: primero los datos, luego la conclusión.",
+        "Pide que saque lo que tiene antes de opinar; al revés, defiende la conclusión que ya escribió.",
+        "En tareas de una sola respuesta no lo uses: alarga sin mejorar.",
+        "Si no quieres leer el razonamiento, pide que trabaje por partes y entregue solo el resultado."
+      ],
+      "label": "Primero los datos. Después la conclusión.",
+      "art": {
+        "type": "doodle",
+        "id": "escalera",
+        "pos": "br",
+        "h": 240
+      }
+    },
+    {
+      "n": 8,
+      "kind": "caso",
+      "ts": "84px",
+      "title": "Dos arranques, la misma tarea",
+      "lab": "DOS ARRANQUES",
+      "lines": [
+        "Arranque 1: «Eres un experto en finanzas.»",
+        "Arranque 2: «Escribes para la dueña de una papelería que no sabe qué es un margen; explícale en cinco líneas si le conviene el crédito.»",
+        "El papel no da conocimiento nuevo: solo dice de qué estante sacar las palabras.",
+        "Por eso «experto» casi no mueve y «para quién y para qué» lo mueve todo."
+      ],
+      "foot": "El rol decora. El destinatario decide.",
+      "art": {
+        "type": "doodle",
+        "id": "etiqueta",
+        "pos": "br",
+        "h": 230
+      }
+    },
+    {
+      "n": 9,
+      "kind": "checks",
+      "ts": "82px",
+      "title": "Lo que sí vale la pena escribir",
+      "checks": [
+        "Di para quién es.",
+        "Di en qué formato lo quieres.",
+        "Pon un ejemplo del resultado bueno.",
+        "Di qué sí, no qué no.",
+        "Una tarea por prompt.",
+        "Si lo que agregas no quita ambigüedad, bórralo."
+      ],
+      "band": {
+        "lab": "LO QUE SÍ PESA",
+        "txt": "Seis líneas claras le ganan a una página de adornos."
+      },
+      "art": {
+        "type": "doodle",
+        "id": "diana",
+        "pos": "bl",
+        "h": 230
+      }
+    },
+    {
+      "n": 10,
+      "kind": "final",
+      "ts": "56px",
+      "title": "Aclara. Ejemplifica. Divide. Borra lo que adorna.",
+      "ask": "¿Qué quedaría de tu prompt favorito si le quitas todo lo que no da información?",
+      "follow": "Sígueme para más",
+      "send": "Mándaselo a quien le pasa esto.",
+      "tape": "Explico la IA sin fórmulas mágicas, para gente que la usa todos los días.",
+      "art": {
+        "type": "pichu",
+        "id": "p24",
+        "pos": "cc",
+        "fallback": "burbujas"
+      }
+    }
+  ]
+}

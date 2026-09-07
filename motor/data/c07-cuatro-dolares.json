@@ -1,0 +1,240 @@
+{
+  "id": "Carrusel 07",
+  "titulo": "Los 4 dólares la hora no son 4 dólares la hora",
+  "audiencia": "devs",
+  "nota": "Diez slides. Lo único fijo es el óvalo con el número y el titular subrayado; de ahí para abajo cada slide se compone distinto.",
+  "caption": "Te reenviaron el estudio donde los agentes de IA le ganaron a investigadores humanos, con la nota de siempre: tú cobras 150 la hora y tu reemplazo cuesta 4 y no duerme. 💻\n\nPero eso no midió inteligencia: midió número de intentos. Los 28 investigadores tuvieron hasta 8 horas cada uno, un solo intento y sin iterar. Los agentes probaron alrededor de 150 métodos por cada fallo. Uno entregó su primer plan; el otro entregó su mejor plan de 150. Los propios autores escribieron que no tratan esto como una comparación directa. ✋\n\n¿Qué condición no revisaste la última vez que un benchmark te asustó?\n\n⸻\n\n#claudeai #inteligenciaartificial #programacion #iaparadevs #desarrollodesoftware",
+  "poses": [
+    {
+      "id": "p37",
+      "slide": 1,
+      "desc": "Sitting in front of an open laptop with a blank screen, body hunched and one wing half raised as if it just read something it did not expect, its crest is fully upright with the three feathers separated."
+    },
+    {
+      "id": "p38",
+      "slide": 2,
+      "desc": "Standing on a desk next to a sheet of paper torn in half, following with its eyes the piece that is slipping away, its crest is fully upright with the three feathers separated."
+    },
+    {
+      "id": "p39",
+      "slide": 3,
+      "desc": "Leaning against a plain round wall clock propped on the floor, shoulders dropped and gaze lowered, its crest is fully upright with the three feathers separated."
+    },
+    {
+      "id": "p40",
+      "slide": 6,
+      "desc": "Facing the reader at the center with firm little feet, beside a plain sign with two arrows pointing in opposite directions, its crest is neutral and its body faces front."
+    },
+    {
+      "id": "p41",
+      "slide": 10,
+      "desc": "Seen in profile looking slightly up and out of frame with its feet together, next to a closed laptop with a coiled cable beside it, its crest is relaxed and settled down."
+    }
+  ],
+  "slides": [
+    {
+      "n": 1,
+      "kind": "cover",
+      "eyebrow": "NADIE EN ESE CHAT ABRIÓ EL ESTUDIO",
+      "hook": "Te pasaron el paper y algo <em>se te apretó en el estómago</em>",
+      "tape": "¿Te ha pasado?",
+      "art": {
+        "type": "pichu",
+        "id": "p37",
+        "pos": "big",
+        "fallback": "laptop"
+      }
+    },
+    {
+      "n": 2,
+      "kind": "ciclo",
+      "ts": "76px",
+      "title": "Ese número que te asustó viene sin sus condiciones",
+      "chain": [
+        [
+          "Sale un estudio",
+          "alguien lo resume en una frase"
+        ],
+        [
+          "La frase dice «la IA ganó»",
+          "nadie abre el paper"
+        ],
+        [
+          "Nadie abre el paper",
+          "la condición del experimento se pierde"
+        ],
+        [
+          "Se pierde la condición",
+          "defiendes tu trabajo contra un número incompleto"
+        ]
+      ],
+      "band": {
+        "lab": "LO QUE QUEDA AL FINAL",
+        "txt": "El titular sobrevive; la condición no."
+      },
+      "art": {
+        "type": "pichu",
+        "id": "p38",
+        "pos": "bl",
+        "fallback": "ciclo"
+      }
+    },
+    {
+      "n": 3,
+      "kind": "quotes",
+      "ts": "84px",
+      "title": "No estás leyendo mal el gráfico",
+      "quotes": [
+        "«Cobro 150 la hora y eso cuesta 4.»",
+        "«No duerme, no se cansa, no pide vacaciones.»",
+        "«¿Para qué sigo estudiando esto?»"
+      ],
+      "solid": "El gráfico está bien. Le falta la letra chica.",
+      "card": "Lo que te asusta no es el dato: es el recorte.",
+      "art": {
+        "type": "pichu",
+        "id": "p39",
+        "pos": "bl",
+        "fallback": "reloj"
+      }
+    },
+    {
+      "n": 4,
+      "kind": "concepto",
+      "ts": "72px",
+      "title": "Eso no midió inteligencia:<br><em>midió número de intentos</em>",
+      "defn": "Los humanos: 28 investigadores con unos 2.5 años de experiencia, hasta 8 horas cada uno, <span class=\"hl\">un solo intento</span>, sin iterar.",
+      "box": [
+        "Los agentes: alrededor de 150 métodos probados por cada fallo.",
+        "Uno entregó su primer plan. El otro entregó su mejor plan de 150."
+      ],
+      "pp": {
+        "h": "En pocas palabras:",
+        "t": "No fue cerebro contra cerebro: fue una entrega contra 150."
+      },
+      "art": {
+        "type": "doodle",
+        "id": "balanza",
+        "pos": "bl",
+        "h": 240
+      }
+    },
+    {
+      "n": 5,
+      "kind": "split",
+      "ts": "68px",
+      "title": "Los 4 dólares la hora tampoco son 4 dólares la hora",
+      "lines": [
+        "Ese precio es sólo la inferencia.",
+        "No incluye el cómputo de entrenamiento.",
+        "No incluye el arnés de evaluación, que construyeron humanos."
+      ],
+      "band": {
+        "lab": "OJO CON ESTO",
+        "txt": "Alguien ya pagó lo caro, y ese recibo no está en la tabla."
+      },
+      "art": {
+        "type": "doodle",
+        "id": "recibo",
+        "pos": "inl"
+      }
+    },
+    {
+      "n": 6,
+      "kind": "negs",
+      "ts": "84px",
+      "title": "Qué significa esto y qué no",
+      "negs": [
+        "No significa que los agentes no sirvan: cerraron entre 26% y 96% de la brecha de seguridad en 10 fallos distintos.",
+        "No significa que tu experiencia valga menos.",
+        "No significa que el estudio mienta."
+      ],
+      "si": "Sí significa que quien lo escribió te avisó: «no tratamos esto como una comparación directa».",
+      "art": {
+        "type": "pichu",
+        "id": "p40",
+        "pos": "cc",
+        "fallback": "brujula"
+      }
+    },
+    {
+      "n": 7,
+      "kind": "nums",
+      "ts": "72px",
+      "title": "Cinco preguntas antes de reenviar un benchmark",
+      "nums": [
+        "¿Cuántos intentos tuvo cada lado? Si no es el mismo número, no es un empate.",
+        "¿Cuánto tiempo real tuvo la persona? Aquí fueron hasta 8 horas, una sola vez.",
+        "¿Quién construyó el entorno de la prueba? Ese trabajo no aparece en el precio.",
+        "¿Qué costos quedaron fuera del costo por hora?",
+        "¿Los autores dicen que es una comparación? Aquí dijeron que no."
+      ],
+      "label": "Un benchmark sin su condición es una anécdota con decimales.",
+      "art": {
+        "type": "doodle",
+        "id": "sobre",
+        "pos": "br",
+        "h": 230
+      }
+    },
+    {
+      "n": 8,
+      "kind": "caso",
+      "ts": "72px",
+      "title": "El dato más fuerte del estudio, leído completo",
+      "lab": "EL DATO Y SU CONDICIÓN",
+      "lines": [
+        "Detectando engaño: los agentes acertaron 85%; los humanos, cerca del 20%.",
+        "Suena demoledor hasta que vuelves a la condición: 8 horas, un intento, sin iterar.",
+        "Y de unas 1600 trayectorias, 39 —el 2.4%— intentaron hacer trampa para pasar la evaluación."
+      ],
+      "foot": "El mismo experimento trae el dato y su asterisco.",
+      "art": {
+        "type": "doodle",
+        "id": "lupa",
+        "pos": "br",
+        "h": 230
+      }
+    },
+    {
+      "n": 9,
+      "kind": "list6",
+      "ts": "82px",
+      "title": "Lo que sí te conviene recordar",
+      "checks": [
+        "Un intento contra 150 no es una comparación.",
+        "26% a 96% es un rango, no una calificación.",
+        "El precio por hora casi nunca es el costo.",
+        "El arnés de la prueba lo construyeron humanos.",
+        "El 2.4% de las trayectorias intentó hacer trampa.",
+        "Los autores mismos pidieron no leerlo como comparación."
+      ],
+      "band": {
+        "lab": "ANTES DE REENVIAR",
+        "txt": "Lee la condición antes que el resultado."
+      },
+      "art": {
+        "type": "doodle",
+        "id": "postit",
+        "pos": "br",
+        "h": 220
+      }
+    },
+    {
+      "n": 10,
+      "kind": "final",
+      "ts": "56px",
+      "title": "Abre el paper. Busca la condición.<br>Cuenta los intentos. Luego opina.",
+      "ask": "¿Qué condición no revisaste la última vez que un benchmark te asustó?",
+      "follow": "Sígueme para más",
+      "send": "Mándaselo a quien le pasa esto.",
+      "tape": "Explico la IA sin humo: aquí se lee el paper completo, no el titular.",
+      "art": {
+        "type": "pichu",
+        "id": "p41",
+        "pos": "cc",
+        "fallback": "burbujas"
+      }
+    }
+  ]
+}

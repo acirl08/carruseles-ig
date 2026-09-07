@@ -1,0 +1,242 @@
+{
+  "id": "Carrusel 01",
+  "titulo": "Sonaba perfecto. No era lo que pediste",
+  "audiencia": "emprendedores",
+  "nota": "Diez slides. Lo único fijo es el óvalo con el número y el titular subrayado; de ahí para abajo cada slide se compone distinto.",
+  "caption": "Le pides algo clarísimo, llega una respuesta impecable, y no es lo que pediste. Y terminas pensando que el problema eres tú. ✍️\n\nNo busca la respuesta correcta: arma la continuación más probable de tu texto, palabra por palabra. Lo que escribiste es la única pista que tiene. Lo que no escribiste lo rellena con lo más común, y lo más común no es lo más cierto: es lo más repetido. Por eso el error te llega bien redactado.\n\n¿Cuál fue la última respuesta que te sonó perfecta y resultó falsa?\n\n⸻\n\n#claudeai #inteligenciaartificial #iaparatunegocio #aprendeia #productividadconia",
+  "poses": [
+    {
+      "id": "p07",
+      "slide": 1,
+      "desc": "Facing the laptop head-on with its wings held slightly away from its body and its eyes fixed on the screen, its crest is fully upright with the three feathers separated."
+    },
+    {
+      "id": "p08",
+      "slide": 2,
+      "desc": "Standing three-quarters toward the laptop with its head tilted to one side and one foot raised over the keyboard without touching it, its crest is fully upright with the three feathers separated."
+    },
+    {
+      "id": "p09",
+      "slide": 4,
+      "desc": "Sitting in profile in front of the screen with its head turned toward the reader, its crest is at half mast and tilted to one side."
+    },
+    {
+      "id": "p10",
+      "slide": 7,
+      "desc": "Standing beside the mug with its head raised and its attention on the screen, its crest is neutral and its body faces front."
+    },
+    {
+      "id": "p12",
+      "slide": 10,
+      "desc": "Sitting calmly beside the mug with its wings tucked against its body and a soft look toward the reader, its crest is relaxed and settled down."
+    }
+  ],
+  "slides": [
+    {
+      "n": 1,
+      "kind": "cover",
+      "eyebrow": "PEDISTE ALGO CLARÍSIMO. LLEGÓ UNA RESPUESTA IMPECABLE",
+      "hook": "Sonaba perfecto. <em>No era lo que pediste.</em>",
+      "tape": "¿Te ha pasado?",
+      "art": {
+        "type": "pichu",
+        "id": "p07",
+        "pos": "big",
+        "fallback": "laptop"
+      }
+    },
+    {
+      "n": 2,
+      "kind": "ciclo",
+      "ts": "82px",
+      "title": "Agregas palabras al prompt y se aleja más",
+      "chain": [
+        [
+          "Escribes con lo que traes en la cabeza",
+          "solo lee lo que quedó escrito"
+        ],
+        [
+          "La respuesta suena segura",
+          "asumes que te entendió"
+        ],
+        [
+          "No entendió: completó",
+          "corriges con más palabras"
+        ],
+        [
+          "Más palabras, más caminos posibles",
+          "se aleja todavía más"
+        ]
+      ],
+      "band": {
+        "lab": "AL FINAL DEL CICLO",
+        "txt": "Cada corrección abre una puerta nueva."
+      },
+      "art": {
+        "type": "pichu",
+        "id": "p08",
+        "pos": "bl",
+        "fallback": "ciclo"
+      }
+    },
+    {
+      "n": 3,
+      "kind": "costo",
+      "ts": "90px",
+      "title": "No estás fallando tú",
+      "quotes": [
+        "«Seguro lo expliqué mal.»",
+        "«Ya perdí media hora en algo de cinco minutos.»",
+        "«Esto no es para mí.»"
+      ],
+      "solid": "Nada de eso es cierto: le hablas a algo que no escucha, calcula.",
+      "art": {
+        "type": "doodle",
+        "id": "reloj",
+        "pos": "br",
+        "h": 240
+      }
+    },
+    {
+      "n": 4,
+      "kind": "concepto",
+      "ts": "76px",
+      "title": "No busca la respuesta correcta.<br><em>Arma la más probable.</em>",
+      "defn": "Predice: elige la palabra que suele seguir, y luego la siguiente. Así arma <span class=\"hl\">la continuación más probable</span> de tu texto.",
+      "box": [
+        "Lo que escribiste es la pista que tiene.",
+        "Lo que no escribiste lo rellena con lo más común."
+      ],
+      "pp": {
+        "h": "En pocas palabras:",
+        "t": "Palabra por palabra, no idea por idea."
+      },
+      "art": {
+        "type": "pichu",
+        "id": "p09",
+        "pos": "bl",
+        "fallback": "dado"
+      }
+    },
+    {
+      "n": 5,
+      "kind": "split",
+      "ts": "88px",
+      "title": "Lo más común no es lo más cierto",
+      "lines": [
+        "Es lo más repetido.",
+        "Por eso el error te llega bien redactado.",
+        "Sonar fluido y ser exacto son cosas distintas."
+      ],
+      "band": {
+        "lab": "SOLO UNA VIENE GARANTIZADA",
+        "txt": "La fluidez está garantizada. La exactitud no."
+      },
+      "art": {
+        "type": "doodle",
+        "id": "diana",
+        "pos": "inl"
+      }
+    },
+    {
+      "n": 6,
+      "kind": "negs",
+      "ts": "90px",
+      "title": "Lo que esto no significa",
+      "negs": [
+        "No significa que sea tonta.",
+        "No significa que te mienta a propósito.",
+        "No significa que un prompt más largo lo arregle."
+      ],
+      "si": "Sí significa que tienes que escribirle el contexto que tú das por hecho.",
+      "art": {
+        "type": "doodle",
+        "id": "balanza",
+        "pos": "cc",
+        "h": 250
+      }
+    },
+    {
+      "n": 7,
+      "kind": "nums",
+      "ts": "74px",
+      "title": "Cuatro preguntas antes de mandar el mensaje",
+      "nums": [
+        "¿Qué doy por hecho y no escribí?",
+        "¿Contra qué ejemplo se compara un buen resultado?",
+        "¿Qué debe hacer, dicho en positivo?",
+        "¿Cómo verifico esto sin volver a preguntarle a ella?"
+      ],
+      "label": "Guarda estas cuatro. Son el filtro.",
+      "art": {
+        "type": "pichu",
+        "id": "p10",
+        "pos": "br",
+        "fallback": "postit"
+      }
+    },
+    {
+      "n": 8,
+      "kind": "vs",
+      "ts": "76px",
+      "title": "Le pides tres proveedores y dos salen bien",
+      "cols": [
+        [
+          "LO QUE SÍ LLEGA",
+          "Pides año de fundación y contacto de tres proveedores. Los dos primeros llegan correctos."
+        ],
+        [
+          "LO QUE SE INVENTA",
+          "El tercero trae teléfono y año inventados, en el mismo formato limpio que los otros dos."
+        ]
+      ],
+      "foot": "No se equivocó: completó el patrón de la lista.",
+      "art": {
+        "type": "doodle",
+        "id": "papel",
+        "pos": "br",
+        "h": 230
+      }
+    },
+    {
+      "n": 9,
+      "kind": "list6",
+      "ts": "84px",
+      "title": "Lo que te queda de todo esto",
+      "checks": [
+        "Lo obvio para ti hay que escribirlo.",
+        "Un ejemplo vale más que tres adjetivos.",
+        "Lo verificable se verifica siempre.",
+        "El tono seguro no es evidencia.",
+        "Nombres, cifras y citas van a revisión manual.",
+        "Si la respuesta te encanta demasiado, revísala dos veces."
+      ],
+      "band": {
+        "lab": "QUÉDATE CON ESTO",
+        "txt": "El tono seguro no prueba nada."
+      },
+      "art": {
+        "type": "doodle",
+        "id": "libro",
+        "pos": "br",
+        "h": 220
+      }
+    },
+    {
+      "n": 10,
+      "kind": "final",
+      "ts": "60px",
+      "title": "Escribe. Muestra. Verifica. Vuelve a pedir.",
+      "ask": "¿Cuál fue la última respuesta que te sonó perfecta y resultó falsa?",
+      "follow": "Sígueme para más",
+      "send": "Mándaselo a quien le pasa esto.",
+      "tape": "Explico cómo piensa la IA, sin humo, para gente que trabaja con ella.",
+      "art": {
+        "type": "pichu",
+        "id": "p12",
+        "pos": "cc",
+        "fallback": "burbujas"
+      }
+    }
+  ]
+}

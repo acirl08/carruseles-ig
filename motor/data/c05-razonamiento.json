@@ -1,0 +1,250 @@
+{
+  "id": "Carrusel 05",
+  "titulo": "Ves \"pensando…\" y bajas la guardia",
+  "audiencia": "emprendedores",
+  "nota": "Diez slides. Lo único fijo es el óvalo con el número y el titular subrayado; de ahí para abajo cada slide se compone distinto.",
+  "caption": "Ese \"pensando…\" antes de la respuesta te relaja, y ahí está el problema 🧠 Lees los pasos, suenan ordenados, y sueltas la revisión.\n\nEscribir el paso a paso sí mejora el resultado, pero no porque te esté mostrando cómo decidió. Cada palabra que escribe se vuelve parte de lo que lee para escribir la siguiente. Es un borrador que se usa a sí mismo, no una ventana a su cabeza. Por eso te sirve como borrador de trabajo y no como prueba.\n\n¿Cuándo fue la última vez que te dio la razón sin que la merecieras?\n\n⸻\n\n#claudeai #inteligenciaartificial #productividad #tomadedecisiones #negociosdigitales",
+  "poses": [
+    {
+      "id": "p25",
+      "slide": 1,
+      "desc": "Sitting in front of a plain silver laptop with its head tilted toward the screen and one eye wide open, its crest is fully upright with the three feathers separated."
+    },
+    {
+      "id": "p26",
+      "slide": 2,
+      "desc": "Seen in profile before the plain laptop, body leaning slightly back and one small foot lifted onto the table, its crest is fully upright with the three feathers separated."
+    },
+    {
+      "id": "p27",
+      "slide": 6,
+      "desc": "Standing squarely toward the reader at the center of the table with both feet planted firmly beside the closed plain laptop, its crest is neutral and its body faces front."
+    },
+    {
+      "id": "p28",
+      "slide": 8,
+      "desc": "Standing next to the open plain laptop with its beak parted and its gaze fixed straight on the blank screen, its crest is neutral and its body faces front."
+    },
+    {
+      "id": "p29",
+      "slide": 9,
+      "desc": "Sitting quietly beside a plain unmarked mug, body rounded and looking calmly straight ahead, its crest is relaxed and settled down."
+    },
+    {
+      "id": "p30",
+      "slide": 10,
+      "desc": "Seen in profile in front of the closed plain laptop with a loose, easy posture and its long tail hanging over the edge of the table, its crest is relaxed and settled down."
+    }
+  ],
+  "slides": [
+    {
+      "n": 1,
+      "kind": "cover",
+      "eyebrow": "APARECEN LOS PASITOS Y SE TOMA SU TIEMPO",
+      "hook": "Ves \"pensando…\" y <em>bajas la guardia</em>",
+      "tape": "\"Ahora sí lo pensó.\"",
+      "art": {
+        "type": "pichu",
+        "id": "p25",
+        "pos": "big",
+        "fallback": "laptop"
+      }
+    },
+    {
+      "n": 2,
+      "kind": "ciclo",
+      "ts": "76px",
+      "title": "Los pasos que te muestra son texto, no la decisión",
+      "chain": [
+        [
+          "Ves los pasos escritos",
+          "asumes que ahí decidió"
+        ],
+        [
+          "El texto suena ordenado",
+          "le crees más que a una respuesta corta"
+        ],
+        [
+          "Preguntas por qué",
+          "te arma una explicación que encaja"
+        ],
+        [
+          "La explicación convence",
+          "dejas de revisar el resultado"
+        ]
+      ],
+      "band": {
+        "lab": "LO QUE SE APAGA",
+        "txt": "La explicación te convence."
+      },
+      "art": {
+        "type": "pichu",
+        "id": "p26",
+        "pos": "br",
+        "fallback": "escalera"
+      }
+    },
+    {
+      "n": 3,
+      "kind": "quotes",
+      "ts": "90px",
+      "title": "No te dejaste engañar",
+      "quotes": [
+        "«Si lo razonó, ha de estar bien.»",
+        "«Me explicó el porqué, así que le creo.»",
+        "«¿Quién soy yo para dudarle?»"
+      ],
+      "solid": "Ese texto está hecho para leerse como razonamiento.",
+      "card": "Se lee como razonamiento.",
+      "art": {
+        "type": "doodle",
+        "id": "ojo",
+        "pos": "bl",
+        "h": 250
+      }
+    },
+    {
+      "n": 4,
+      "kind": "concepto",
+      "ts": "76px",
+      "title": "Escribir los pasos sí ayuda,<br><em>pero no por lo que crees</em>",
+      "defn": "Cada palabra que escribe se vuelve parte de <span class=\"hl\">lo que lee</span> para escribir la siguiente.",
+      "box": [
+        "No estás viendo su cabeza:",
+        "estás viendo un borrador que se usa a sí mismo."
+      ],
+      "pp": {
+        "h": "En pocas palabras:",
+        "t": "Un borrador de trabajo, no una ventana."
+      },
+      "art": {
+        "type": "doodle",
+        "id": "papel",
+        "pos": "bl",
+        "h": 240
+      }
+    },
+    {
+      "n": 5,
+      "kind": "stack",
+      "ts": "72px",
+      "title": "Por eso la explicación puede no corresponder al resultado",
+      "lines": [
+        "Si primero suelta la conclusión y luego el porqué, ese porqué se escribe para encajar con lo ya dicho.",
+        "No está justificando: está construyendo la justificación hacia atrás.",
+        "Y suena impecable."
+      ],
+      "band": {
+        "lab": "DÓNDE ESTÁ LA TRAMPA",
+        "txt": "Construye la justificación hacia atrás."
+      },
+      "art": {
+        "type": "doodle",
+        "id": "hilo",
+        "pos": "br",
+        "h": 250
+      }
+    },
+    {
+      "n": 6,
+      "kind": "negs",
+      "ts": "90px",
+      "title": "Lo que esto no significa",
+      "negs": [
+        "No significa que el paso a paso sea teatro.",
+        "No significa que puedas auditar su decisión leyéndolo.",
+        "No significa que un texto más largo sea más confiable."
+      ],
+      "si": "Sí significa que te sirve como borrador de trabajo, no como prueba.",
+      "art": {
+        "type": "pichu",
+        "id": "p27",
+        "pos": "cc",
+        "fallback": "balanza"
+      }
+    },
+    {
+      "n": 7,
+      "kind": "nums",
+      "ts": "68px",
+      "title": "Cinco formas de preguntar que no la dejan complacerte",
+      "nums": [
+        "No metas tu conclusión en la pregunta.",
+        "Pide el caso en contra antes del caso a favor.",
+        "Pide dos opciones con su costo, no una recomendación.",
+        "No digas de quién es la idea.",
+        "No le digas todavía que estás de acuerdo."
+      ],
+      "label": "En cuanto ve que te gustó, se acomoda.",
+      "art": {
+        "type": "doodle",
+        "id": "diana",
+        "pos": "br",
+        "h": 240
+      }
+    },
+    {
+      "n": 8,
+      "kind": "vs",
+      "ts": "68px",
+      "title": "Le pides que no mencione el retraso. Lo menciona.",
+      "cols": [
+        [
+          "LO QUE PASA",
+          "El correo arranca justo ahí: «sin entrar en el retraso…». Para obedecer tuvo que meter la palabra en la conversación."
+        ],
+        [
+          "LA VERSIÓN QUE FUNCIONA",
+          "«Habla solo de la nueva fecha y de los siguientes pasos.»"
+        ]
+      ],
+      "foot": "Lo que está en la conversación es lo que más probabilidad tiene de salir.",
+      "art": {
+        "type": "pichu",
+        "id": "p28",
+        "pos": "br",
+        "fallback": "sobre"
+      }
+    },
+    {
+      "n": 9,
+      "kind": "list6",
+      "ts": "80px",
+      "title": "Guárdate esto para tu próxima decisión",
+      "checks": [
+        "El paso a paso ayuda a acertar, no a comprobar.",
+        "La conclusión primero contamina el porqué.",
+        "Pregunta sin sugerir la respuesta.",
+        "Pide contras antes que pros.",
+        "Di qué sí, nunca qué no.",
+        "Si te da la razón siempre, cambia la pregunta, no el modelo."
+      ],
+      "band": {
+        "lab": "PARA LA PRÓXIMA",
+        "txt": "Ayuda a acertar, no a comprobar."
+      },
+      "art": {
+        "type": "pichu",
+        "id": "p29",
+        "pos": "bl",
+        "fallback": "libro"
+      }
+    },
+    {
+      "n": 10,
+      "kind": "final",
+      "ts": "56px",
+      "title": "Duda. Pregunta al revés. Pide contras. Revisa el resultado.",
+      "ask": "¿Cuándo fue la última vez que te dio la razón sin que la merecieras?",
+      "follow": "Sígueme para más",
+      "send": "Mándaselo a quien le pasa esto.",
+      "tape": "Explico la IA sin humo, para gente que la usa para decidir.",
+      "art": {
+        "type": "pichu",
+        "id": "p30",
+        "pos": "cc",
+        "fallback": "megafono"
+      }
+    }
+  ]
+}

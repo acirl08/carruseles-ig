@@ -1,0 +1,71 @@
+{
+  "id": "Corto 02",
+  "titulo": "Pegaste la tabla y te inventó los totales",
+  "audiencia": "emprendedores",
+  "etiqueta": "NEGOCIO",
+  "nota": "Siete beats sin fusión. Complementa el carril largo: el largo explica por qué la IA suena segura, este dice qué hacer con los números. Cierre de alcance.",
+  "caption": "Le pegaste tu tabla de ventas a Claude, le pediste el total y te dio un número. Se veía bien. No cuadraba. 📊\n\nNo es que la IA sea mala con números. Es que no está sumando: está prediciendo qué número se ve razonable ahí. Y un número razonable no es un número correcto.\n\nLa vuelta es no pedirle el resultado, sino la fórmula o el código que lo calcula. Tú lo corres, y el que suma es tu Excel o tu script, no un modelo de lenguaje. Si te lo va a decir de memoria, pídele que primero escriba cómo lo calculó.\n\n¿Qué número le creíste sin revisar?\n\n⸻\n\n#claudeai #inteligenciaartificial #iaparaemprendedores #productividadconia #excelconia",
+  "slides": [
+    {
+      "kind": "portada",
+      "ts": "112px",
+      "hook": "Le pegaste tu tabla a <span class=\"o\">Claude</span> y te inventó los totales",
+      "tape": "¿Te ha pasado?"
+    },
+    {
+      "kind": "diagnostico",
+      "ts": "98px",
+      "copy": "No se equivoca al sumar. Es que no está sumando.",
+      "boc": "La mentira que te cuentas: <em>«es que la IA es mala con números»</em>. No es mala con números. Está prediciendo cuál se ve razonable ahí."
+    },
+    {
+      "kind": "credibilidad",
+      "ts": "94px",
+      "verificado": false,
+      "copy": "Me pasan reportes hechos con IA y los números no cuadran",
+      "boc": "Lo primero que reviso no es el análisis: es <em>de dónde salió cada cifra</em>. Casi siempre salió del chat, no de la hoja."
+    },
+    {
+      "kind": "concepto",
+      "ts": "96px",
+      "copy": "El número no se pide. Se calcula.",
+      "lista": [
+        {
+          "nombre": "PÍDELE LA FÓRMULA",
+          "descripcion": "No el resultado. La fórmula la corre tu hoja, que sí sabe sumar."
+        },
+        {
+          "nombre": "O PÍDELE EL CÓDIGO",
+          "descripcion": "Si la tabla es grande, que escriba el script. Lo ejecutas tú y ves el paso."
+        },
+        {
+          "nombre": "QUE MUESTRE EL CAMINO",
+          "descripcion": "Si insiste en darte el número, que escriba antes cómo lo obtuvo."
+        }
+      ]
+    },
+    {
+      "kind": "solucion",
+      "ts": "94px",
+      "copy": "Cambia «cuánto da» por «cómo se calcula»",
+      "dato": "El que suma deja de ser el chat y vuelve a ser tu hoja.",
+      "boc": "«Aquí va mi tabla. <em>No me des el total.</em> Dame la fórmula que lo calcula y dime en qué celda va, para pegarla yo.»"
+    },
+    {
+      "kind": "resultado",
+      "ts": "88px",
+      "copy": "Dejas de revisar números y empiezas a revisar decisiones",
+      "pale": true,
+      "verificado": false,
+      "boc": "En mis pruebas el cambio no es que acierte más: es que ya no tienes que desconfiar de cada cifra antes de usarla."
+    },
+    {
+      "kind": "cierre",
+      "ts": "100px",
+      "copy": "Pide el cómo, no el cuánto.",
+      "ask": "¿Qué número le creíste sin revisar?",
+      "follow": "Sígueme para más",
+      "send": "Mándaselo a quien arma reportes con IA."
+    }
+  ]
+}

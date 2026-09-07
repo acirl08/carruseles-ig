@@ -1,0 +1,65 @@
+{
+  "id": "Corto 03",
+  "titulo": "Le explicas tu negocio otra vez cada mañana",
+  "audiencia": "emprendedores",
+  "etiqueta": "NEGOCIO",
+  "nota": "Seis slides: diagnóstico y credibilidad fusionados, como autoriza el SCHEMA. Complementa el carrusel largo c08 (por qué no aprende de lo que le corriges): el largo explica el mecanismo, este da la vuelta práctica.",
+  "caption": "Abres un chat nuevo con Claude y le vuelves a explicar a qué te dedicas, quién es tu cliente y por qué no dices «solución integral». Otra vez. ☕\n\nNo es que se le olvide: es que cada chat empieza sin nada. Lo que tú vives como amnesia es en realidad una hoja en blanco, y la hoja en blanco la puedes llenar tú una sola vez.\n\nUn archivo de contexto —qué haces, a quién le hablas, qué palabras nunca usas, tres ejemplos de cómo suenas— pegado al inicio del chat convierte la reexplicación diaria en un copiar y pegar. Y cada vez que corriges algo, esa corrección se agrega al archivo en vez de morir con el chat.\n\n¿Qué le explicas siempre desde cero?\n\n⸻\n\n#claudeai #inteligenciaartificial #iaparaemprendedores #productividadconia #aprendeia",
+  "slides": [
+    {
+      "kind": "portada",
+      "ts": "108px",
+      "hook": "Le explicas tu negocio a <span class=\"o\">Claude</span> otra vez cada mañana",
+      "tape": "Todos los días"
+    },
+    {
+      "kind": "diagnostico",
+      "ts": "92px",
+      "verificado": false,
+      "copy": "No se le olvida. Es que cada chat empieza en blanco.",
+      "boc": "Me escriben para preguntarme cómo hacer que <em>se acuerde</em>. No se acuerda de nada, y no hace falta: la hoja en blanco la llenas tú una vez."
+    },
+    {
+      "kind": "concepto",
+      "ts": "94px",
+      "copy": "Un archivo. Tres cosas. Pegado al inicio.",
+      "lista": [
+        {
+          "nombre": "QUÉ HACES Y PARA QUIÉN",
+          "descripcion": "En las palabras que usas con un cliente, no en las de tu página web."
+        },
+        {
+          "nombre": "LO QUE NUNCA DICES",
+          "descripcion": "Las palabras que te dan pena. Ahí es donde suena a otra persona."
+        },
+        {
+          "nombre": "TRES EJEMPLOS TUYOS",
+          "descripcion": "Textos reales ya enviados. Muestran el tono mejor que cualquier adjetivo."
+        }
+      ]
+    },
+    {
+      "kind": "solucion",
+      "ts": "94px",
+      "copy": "Cada corrección se guarda ahí, no en el chat",
+      "dato": "El archivo crece. El chat se muere. Guarda en el que crece.",
+      "boc": "«Antes de empezar, lee este contexto. <em>Al final</em>, dime qué le agregarías con lo que aprendiste corrigiéndome hoy.»"
+    },
+    {
+      "kind": "resultado",
+      "ts": "86px",
+      "copy": "El lunes empiezas donde terminaste el viernes",
+      "pale": true,
+      "verificado": false,
+      "boc": "En mis pruebas la diferencia no está en la primera respuesta: está en que la décima ya no repite el error que corregiste en la segunda."
+    },
+    {
+      "kind": "cierre",
+      "ts": "98px",
+      "copy": "Escríbelo una vez.",
+      "ask": "¿Qué le explicas siempre desde cero?",
+      "follow": "Sígueme para más",
+      "send": "Mándaselo a quien reexplica todo cada día."
+    }
+  ]
+}

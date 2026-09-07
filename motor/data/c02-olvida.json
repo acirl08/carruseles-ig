@@ -1,0 +1,250 @@
+{
+  "id": "Carrusel 02",
+  "titulo": "Por qué olvida lo que ya le dijiste",
+  "audiencia": "emprendedores",
+  "nota": "Diez slides. Lo único fijo es el óvalo con el número y el titular subrayado; de ahí para abajo cada slide se compone distinto.",
+  "caption": "Le explicaste tu negocio con detalle y veinte mensajes después te pregunta a qué te dedicas. No es que no te ponga atención. ✋\n\nNo tiene memoria: tiene una ventana. En cada mensaje se le vuelve a pasar la conversación completa y lee nada más lo que alcanza a caber. No recuerda, relee. Y cuando ya no cabe todo, lo primero que se recorta es el principio, justo donde pusiste las reglas. 🪟\n\n¿Qué instrucción le tienes que repetir siempre, sin falta?\n\n⸻\n\n#claudeai #inteligenciaartificial #iaparaemprendedores #productividadconia #aprendeia",
+  "slides": [
+    {
+      "n": 1,
+      "kind": "cover",
+      "eyebrow": "A LA MITAD DE UNA CONVERSACIÓN LARGA TE VUELVE A PREGUNTAR LO QUE YA ESCRIBISTE",
+      "hook": "Se le olvida lo que ya le dijiste <em>tres veces</em>",
+      "tape": "¿Te ha pasado?",
+      "art": {
+        "type": "pichu",
+        "id": "p01",
+        "pos": "big",
+        "fallback": "ventana"
+      }
+    },
+    {
+      "n": 2,
+      "kind": "ciclo",
+      "ts": "80px",
+      "title": "Al chat se le cae lo que escribiste primero",
+      "chain": [
+        [
+          "La conversación crece",
+          "cada respuesta relee todo desde cero"
+        ],
+        [
+          "Lo que puede releer tiene un borde",
+          "lo más viejo se sale"
+        ],
+        [
+          "Lo que sale deja de existir",
+          "te contesta como si acabaras de llegar"
+        ],
+        [
+          "Repites la instrucción",
+          "empujas lo demás hacia afuera más rápido"
+        ]
+      ],
+      "band": {
+        "lab": "LO QUE PASA AL FINAL",
+        "txt": "Lo que sale, deja de existir."
+      },
+      "art": {
+        "type": "doodle",
+        "id": "ciclo",
+        "pos": "bl",
+        "h": 250
+      }
+    },
+    {
+      "n": 3,
+      "kind": "quotes",
+      "ts": "84px",
+      "title": "No se está haciendo tonta contigo",
+      "quotes": [
+        "«Ya se lo había dicho.»",
+        "«Se está haciendo tonta conmigo.»",
+        "«Mejor empiezo de cero.»"
+      ],
+      "solid": "No es desmemoria ni mala fe: es un escritorio de tamaño fijo.",
+      "card": "Lo que no cabe, se cae.",
+      "art": {
+        "type": "pichu",
+        "id": "p02",
+        "pos": "bl",
+        "fallback": "taza"
+      }
+    },
+    {
+      "n": 4,
+      "kind": "concepto",
+      "ts": "90px",
+      "title": "No tiene memoria:<br><em>tiene una ventana</em>",
+      "defn": "En cada mensaje se le vuelve a pasar la conversación entera. Lee <span class=\"hl\">lo que quepa</span> y contesta con eso.",
+      "box": [
+        "Le dicen ventana de contexto:",
+        "el pedazo de texto que alcanza a leer de una sola vez."
+      ],
+      "pp": {
+        "h": "En pocas palabras:",
+        "t": "No recuerda: relee."
+      },
+      "art": {
+        "type": "doodle",
+        "id": "ventana",
+        "pos": "bl",
+        "h": 240
+      }
+    },
+    {
+      "n": 5,
+      "kind": "stack",
+      "ts": "80px",
+      "title": "Lo primero que se cae es el principio",
+      "lines": [
+        "Justo ahí, al inicio, pusiste las reglas.",
+        "Un archivo pegado ocupa la ventana completa sin que se note.",
+        "Y nadie te avisa cuándo se cayó lo importante."
+      ],
+      "band": {
+        "lab": "OJO CON ESTO",
+        "txt": "Se va lo primero que escribiste, no lo menos importante."
+      },
+      "art": {
+        "type": "pichu",
+        "id": "p03",
+        "pos": "inl",
+        "fallback": "caja"
+      }
+    },
+    {
+      "n": 6,
+      "kind": "negs",
+      "ts": "84px",
+      "title": "Qué significa esto y qué no",
+      "negs": [
+        "No significa que te ignore.",
+        "No significa que un plan más caro nunca olvide.",
+        "No significa que repetirlo más fuerte funcione."
+      ],
+      "si": "Sí significa que la instrucción tiene que viajar con tu última pregunta, no quedarse en el primer mensaje.",
+      "art": {
+        "type": "doodle",
+        "id": "embudo",
+        "pos": "cc",
+        "h": 250
+      }
+    },
+    {
+      "n": 7,
+      "kind": "nums",
+      "ts": "72px",
+      "title": "Cinco reglas para que no se le caiga lo tuyo",
+      "nums": [
+        "Piensa en pedacitos, no en palabras.",
+        "Todo ocupa lugar: tu pregunta, sus respuestas y los archivos.",
+        "Un chat largo olvida más: parte por tema, no por día.",
+        "Pega el fragmento que importa, no el documento entero.",
+        "Al cambiar de tarea, vuelve a pegar las reglas."
+      ],
+      "label": "Todo lo que escribes ocupa lugar.",
+      "art": {
+        "type": "pichu",
+        "id": "p04",
+        "pos": "br",
+        "fallback": "papel"
+      }
+    },
+    {
+      "n": 8,
+      "kind": "vs",
+      "ts": "76px",
+      "title": "Por qué la memoria de ChatGPT no te salva",
+      "cols": [
+        [
+          "LO QUE SÍ GUARDA",
+          "Notas cortas sobre ti, que vuelve a pegar al inicio de cada chat."
+        ],
+        [
+          "LO QUE NO GUARDA",
+          "La conversación de ayer. El índice que armaron juntas ya no existe."
+        ]
+      ],
+      "foot": "Y esas notas también ocupan lugar.",
+      "art": {
+        "type": "doodle",
+        "id": "postit",
+        "pos": "br",
+        "h": 230
+      }
+    },
+    {
+      "n": 9,
+      "kind": "list6",
+      "ts": "82px",
+      "title": "Lo que sí te conviene recordar",
+      "checks": [
+        "Conversación larga, memoria corta.",
+        "Un chat por tarea.",
+        "Las reglas viajan con la última pregunta.",
+        "Pega el fragmento, no el archivo.",
+        "Si empieza a divagar, resume y reinicia.",
+        "Lo que no está en ese mensaje, no existe."
+      ],
+      "band": {
+        "lab": "LO QUE SE QUEDA",
+        "txt": "Si no está en ese mensaje, no existe."
+      },
+      "art": {
+        "type": "pichu",
+        "id": "p05",
+        "pos": "bl",
+        "fallback": "libro"
+      }
+    },
+    {
+      "n": 10,
+      "kind": "final",
+      "ts": "64px",
+      "title": "Corta. Resume. Repite lo esencial.",
+      "ask": "¿Qué instrucción le tienes que repetir siempre, sin falta?",
+      "follow": "Sígueme para más",
+      "send": "Mándaselo a quien le pasa esto.",
+      "tape": "Explico la IA sin humo, para gente que la usa todos los días.",
+      "art": {
+        "type": "pichu",
+        "id": "p06",
+        "pos": "cc",
+        "fallback": "burbujas"
+      }
+    }
+  ],
+  "poses": [
+    {
+      "id": "p01",
+      "slide": 1,
+      "desc": "the bird stands beside a small closed laptop, head tilted toward the laptop, one wing slightly raised as if asking a question; its crest is fully upright with the three feathers separated."
+    },
+    {
+      "id": "p02",
+      "slide": 3,
+      "desc": "the bird leans tiredly against a plain smooth mug, shoulders drooping, gaze pointed down at the floor; its crest is fully upright with the three feathers separated."
+    },
+    {
+      "id": "p03",
+      "slide": 5,
+      "desc": "the bird peeks over the top edge of a large open empty cardboard box, body low, searching for something that is not there; its crest is at half mast and tilted to one side."
+    },
+    {
+      "id": "p04",
+      "slide": 7,
+      "desc": "the bird stands next to a small blank notepad resting on the ground, one wing laid flat on it in the posture of someone about to write; its crest is neutral and its body faces front."
+    },
+    {
+      "id": "p05",
+      "slide": 9,
+      "desc": "the bird sits calmly beside a small closed blank book lying flat on the ground, chest feathers fluffed; its crest is relaxed and settled down."
+    },
+    {
+      "id": "p06",
+      "slide": 10,
+      "desc": "the bird stands in profile looking slightly upward and out of frame, both feet together, one small outlined heart floating near its head; its crest is relaxed and settled down."
+    }
+  ]
+}

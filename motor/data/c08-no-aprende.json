@@ -1,0 +1,243 @@
+{
+  "id": "Carrusel 08",
+  "titulo": "Por qué no aprende de lo que le corriges",
+  "audiencia": "emprendedores",
+  "nota": "Diez slides. Lo único fijo es el óvalo con el número y el titular subrayado; de ahí para abajo cada slide se compone distinto.",
+  "caption": "Le corriges el mismo error, lo arregla, y al día siguiente abres otro chat y vuelve a empezar mal. No es que no te haga caso. ✋\n\nTe obedece en el momento, pero no aprende de eso. Cuando le corriges, ajusta esa respuesta y nada más: no queda registro, no queda lección, no hay un después. Entre versiones sí mejora, pero eso lo hace su equipo, tarda meses y ese bucle no te incluye. El bucle corto, el de una conversación a la siguiente, es tuyo: el único que sale distinto de esa corrección eres tú. 🔁\n\n¿Qué corrección le repites tanto que ya deberías tenerla escrita?\n\n⸻\n\n#claudeai #inteligenciaartificial #iaparaemprendedores #aprendeia #negociosconia",
+  "poses": [
+    {
+      "id": "p43",
+      "slide": 1,
+      "desc": "Standing on a loose sheet of paper with a single crossed-out line, one small wing pointing at the strike-through and its head turned toward the reader; its crest is fully upright with the three feathers separated."
+    },
+    {
+      "id": "p44",
+      "slide": 4,
+      "desc": "Seen in profile in front of a plain rectangular eraser taller than itself, one small wing stretched out toward the blank sheet; its crest is at half mast and tilted to one side."
+    },
+    {
+      "id": "p45",
+      "slide": 6,
+      "desc": "Facing the reader with its little feet planted firmly, a closed notebook held shut by an elastic band resting at its side; its crest is neutral and its body faces front."
+    },
+    {
+      "id": "p46",
+      "slide": 9,
+      "desc": "Sitting calmly next to a small box with its lid open, chest feathers fluffed up; its crest is relaxed and settled down."
+    },
+    {
+      "id": "p48",
+      "slide": 10,
+      "desc": "Standing front on beside a plain rounded speech bubble with one small wing raised in a friendly wave; its crest is relaxed and settled down."
+    }
+  ],
+  "slides": [
+    {
+      "n": 1,
+      "kind": "cover",
+      "eyebrow": "LE EXPLICAS CÓMO LO QUIERES Y EN ESE CHAT SALE BIEN",
+      "hook": "Le corriges lo mismo hoy, mañana y <em>pasado</em>",
+      "tape": "Abres uno nuevo y vuelve a empezar mal.",
+      "art": {
+        "type": "pichu",
+        "id": "p43",
+        "pos": "big",
+        "fallback": "postit"
+      }
+    },
+    {
+      "n": 2,
+      "kind": "ciclo",
+      "ts": "82px",
+      "title": "Cada chat empieza sin lo que ya corregiste",
+      "chain": [
+        [
+          "Le señalas el error",
+          "lo arregla en esa respuesta"
+        ],
+        [
+          "Cierras el chat",
+          "la corrección se va con él"
+        ],
+        [
+          "Abres otro",
+          "llega igual de nueva que ayer"
+        ],
+        [
+          "Vuelves a explicar lo mismo",
+          "y sientes que el que no avanza eres tú"
+        ]
+      ],
+      "band": {
+        "lab": "EL CÍRCULO COMPLETO",
+        "txt": "Corrige la respuesta, no el hábito."
+      },
+      "art": {
+        "type": "doodle",
+        "id": "engrane",
+        "pos": "bl",
+        "h": 250
+      }
+    },
+    {
+      "n": 3,
+      "kind": "costo",
+      "ts": "90px",
+      "title": "No eres tú el que no aprende",
+      "quotes": [
+        "«Ya se lo expliqué mil veces.»",
+        "«Se está burlando de mí.»",
+        "«A los demás sí les funciona.»"
+      ],
+      "solid": "No lo estás usando mal: no está hecho para acordarse.",
+      "art": {
+        "type": "doodle",
+        "id": "taza",
+        "pos": "br",
+        "h": 240
+      }
+    },
+    {
+      "n": 4,
+      "kind": "concepto",
+      "ts": "84px",
+      "title": "Te obedece en el momento;<br><em>no aprende de eso</em>",
+      "defn": "Cuando le corriges, ajusta <span class=\"hl\">esa respuesta</span> y nada más. El único que sale distinto de esa corrección eres tú.",
+      "box": [
+        "No queda registro, no queda lección,",
+        "no hay después."
+      ],
+      "pp": {
+        "h": "En pocas palabras:",
+        "t": "Tú aprendes; ella sólo responde."
+      },
+      "art": {
+        "type": "pichu",
+        "id": "p44",
+        "pos": "bl",
+        "fallback": "carpeta"
+      }
+    },
+    {
+      "n": 5,
+      "kind": "split",
+      "ts": "84px",
+      "title": "Sí aprende, pero ni contigo ni ahora",
+      "lines": [
+        "Entre una versión y otra sí mejora: la entrena su equipo y tarda meses.",
+        "Ese bucle largo no te incluye.",
+        "El tuyo es corto: de una conversación a la siguiente."
+      ],
+      "band": {
+        "lab": "LO QUE SE PIERDE",
+        "txt": "Son dos bucles distintos. Sólo uno es tuyo."
+      },
+      "art": {
+        "type": "doodle",
+        "id": "calendario",
+        "pos": "inl"
+      }
+    },
+    {
+      "n": 6,
+      "kind": "negs",
+      "ts": "84px",
+      "title": "Qué significa esto y qué no",
+      "negs": [
+        "No significa que sea inútil.",
+        "No significa que un plan más caro sí aprenda de ti.",
+        "No significa que insistir más fuerte funcione."
+      ],
+      "si": "Sí significa que la lección la tienes que guardar tú, fuera del chat.",
+      "art": {
+        "type": "pichu",
+        "id": "p45",
+        "pos": "cc",
+        "fallback": "libro"
+      }
+    },
+    {
+      "n": 7,
+      "kind": "nums",
+      "ts": "70px",
+      "title": "Cinco preguntas para que el que aprenda seas tú",
+      "nums": [
+        "¿Qué error le corriges cada semana? Ese es el que tienes que anotar.",
+        "¿Dónde vive esa corrección: en un chat viejo o en un documento tuyo?",
+        "¿Qué instrucción sí funcionó? Guárdala tal cual la escribiste.",
+        "Antes de culpar a la herramienta, relee lo que tú le pediste.",
+        "Cada mes, borra las reglas que ya dejaste de usar."
+      ],
+      "label": "Lo que no anotas, lo vuelves a pagar.",
+      "art": {
+        "type": "doodle",
+        "id": "libro",
+        "pos": "br",
+        "h": 230
+      }
+    },
+    {
+      "n": 8,
+      "kind": "vs",
+      "ts": "76px",
+      "title": "Una prueba donde había que mejorar jugando",
+      "cols": [
+        [
+          "LA PRUEBA",
+          "Epoch AI puso a los modelos a jugar partidas largas, con reglas que sólo se descubren jugando."
+        ],
+        [
+          "EL RESULTADO",
+          "Un jugador humano experto cumplió 20 de 21 objetivos; su mejor corrida fue 21 de 21. Los modelos quedaron muy por debajo: Epoch ve «muy poca evidencia de que los sistemas de IA estén aprendiendo»."
+        ]
+      ],
+      "foot": "Ojo: ese registro humano son las notas de un solo jugador, no un estudio controlado. Epoch lo aclara.",
+      "art": {
+        "type": "doodle",
+        "id": "dado",
+        "pos": "bl",
+        "h": 230
+      }
+    },
+    {
+      "n": 9,
+      "kind": "list6",
+      "ts": "82px",
+      "title": "Lo que sí te conviene recordar",
+      "checks": [
+        "Corrige la respuesta, no guarda la lección.",
+        "Cada chat nuevo empieza en cero.",
+        "Entre versiones mejora, pero ese bucle no es tuyo.",
+        "El tuyo es corto y sí acumula.",
+        "La instrucción que funcionó, escríbela fuera del chat.",
+        "Tu criterio es lo único que no se reinicia."
+      ],
+      "band": {
+        "lab": "LO QUE SÍ SE ACUMULA",
+        "txt": "Lo que aprendes no se reinicia contigo."
+      },
+      "art": {
+        "type": "pichu",
+        "id": "p46",
+        "pos": "bl",
+        "fallback": "caja"
+      }
+    },
+    {
+      "n": 10,
+      "kind": "final",
+      "ts": "62px",
+      "title": "Corrige. Anota. Reutiliza. Vuelve mejor tú.",
+      "ask": "¿Qué corrección le repites tanto que ya deberías tenerla escrita?",
+      "follow": "Sígueme para más",
+      "send": "Mándaselo a quien le pasa esto.",
+      "tape": "Explico la IA sin humo, para que el criterio se quede contigo y no en el chat.",
+      "art": {
+        "type": "pichu",
+        "id": "p48",
+        "pos": "cc",
+        "fallback": "burbujas"
+      }
+    }
+  ]
+}

@@ -1,0 +1,242 @@
+{
+  "id": "Carrusel 09",
+  "titulo": "El paper no miente: miente el puente",
+  "audiencia": "devs",
+  "nota": "Diez slides. Lo único fijo es el óvalo con el número y el titular subrayado; de ahí para abajo cada slide se compone distinto.",
+  "caption": "Abres el feed y otra vez la IA ya superó a los humanos. Compartes el titular. Y el paper que cita dice justo lo contrario. 📰\n\nEl paper no miente: miente el puente. El estudio mide un resultado condicionado (con este setup, con estos intentos, con estas salvedades) y el titular te entrega un veredicto. En ese salto se caen siempre las mismas tres cosas: la condición, el baseline y la advertencia que el propio autor dejó escrita. Cuando el paper dice que eso no es una comparación directa y el titular la hace de todos modos, el problema no es el estudio. ✋\n\n¿Cuál fue el último titular de IA que compartiste sin abrir la fuente?\n\n⸻\n\n#claudeai #inteligenciaartificial #desarrolladores #programacion #aprendeia",
+  "poses": [
+    {
+      "id": "p49",
+      "slide": 1,
+      "desc": "Standing on a folded newspaper with its head down reading the front page and one wing half raised, its crest is fully upright with the three feathers separated."
+    },
+    {
+      "id": "p50",
+      "slide": 3,
+      "desc": "Sitting beside an open envelope with a sheet of paper peeking out, shoulders drooping and its gaze on the floor, its crest is fully upright with the three feathers separated."
+    },
+    {
+      "id": "p51",
+      "slide": 5,
+      "desc": "Leaning over the rim of a funnel while three small pieces slip out the bottom, its body tipped forward, its crest is at half mast and tilted to one side."
+    },
+    {
+      "id": "p52",
+      "slide": 8,
+      "desc": "Standing in front of a stack of three stapled sheets with its head tilted, checking the bottom page, its crest is neutral and its body faces front."
+    },
+    {
+      "id": "p54",
+      "slide": 10,
+      "desc": "Sitting calmly with its chest feathers puffed beside a folded closed newspaper and one wing resting on it, its crest is relaxed and settled down."
+    }
+  ],
+  "slides": [
+    {
+      "n": 1,
+      "kind": "cover",
+      "eyebrow": "LO COMPARTES ANTES DE ABRIR EL ENLACE",
+      "hook": "Abres el feed y otra vez<br><em>ya te reemplazaron</em>",
+      "tape": "¿Te ha pasado?",
+      "art": {
+        "type": "pichu",
+        "id": "p49",
+        "pos": "big",
+        "fallback": "papel"
+      }
+    },
+    {
+      "n": 2,
+      "kind": "ciclo",
+      "ts": "76px",
+      "title": "Del paper al feed sobrevive la frase, no la prueba",
+      "chain": [
+        [
+          "Sale el estudio",
+          "el agregador necesita una frase"
+        ],
+        [
+          "La frase tiene que ser corta",
+          "se caen las condiciones"
+        ],
+        [
+          "Sin condiciones el resultado suena absoluto",
+          "el feed lo repite"
+        ],
+        [
+          "Lo repetido se vuelve consenso",
+          "discutes el titular, no el estudio"
+        ]
+      ],
+      "band": {
+        "lab": "ASÍ ACABA",
+        "txt": "Lo repetido se vuelve consenso."
+      },
+      "art": {
+        "type": "doodle",
+        "id": "megafono",
+        "pos": "bl",
+        "h": 250
+      }
+    },
+    {
+      "n": 3,
+      "kind": "quotes",
+      "ts": "84px",
+      "title": "No eres el único que se lo tragó",
+      "quotes": [
+        "«Ya lo vi en tres newsletters, ha de ser cierto.»",
+        "«Si lo cita, alguien ya lo verificó.»",
+        "«No tengo tiempo de leerme cuarenta páginas.»"
+      ],
+      "solid": "No es ingenuidad: el resumen siempre llega antes que la fuente.",
+      "card": "Nadie te enseñó a desconfiar del puente.",
+      "art": {
+        "type": "pichu",
+        "id": "p50",
+        "pos": "bl",
+        "fallback": "sobre"
+      }
+    },
+    {
+      "n": 4,
+      "kind": "concepto",
+      "ts": "90px",
+      "title": "El paper no miente:<br><em>miente el puente</em>",
+      "defn": "El estudio mide un <span class=\"hl\">resultado condicionado</span>. El titular te entrega un veredicto.",
+      "box": [
+        "Entre los dos hay un salto que nadie firma.",
+        "Ahí, y sólo ahí, se pierde la verdad."
+      ],
+      "pp": {
+        "h": "En pocas palabras:",
+        "t": "Resultado condicionado no es veredicto."
+      },
+      "art": {
+        "type": "doodle",
+        "id": "puente",
+        "pos": "bl",
+        "h": 240
+      }
+    },
+    {
+      "n": 5,
+      "kind": "stack",
+      "ts": "80px",
+      "title": "Siempre se caen las mismas tres cosas",
+      "lines": [
+        "Se cae la condición: con qué setup, cuántos intentos, cuánto presupuesto.",
+        "Se cae el baseline: contra quién se comparó, y si esa comparación era válida.",
+        "Se cae la advertencia que el propio autor escribió en el texto."
+      ],
+      "band": {
+        "lab": "LO QUE SE CAE",
+        "txt": "El paper ya trae la salvedad. El titular la borra."
+      },
+      "art": {
+        "type": "pichu",
+        "id": "p51",
+        "pos": "cr",
+        "fallback": "embudo"
+      }
+    },
+    {
+      "n": 6,
+      "kind": "negs",
+      "ts": "84px",
+      "title": "Qué significa esto y qué no",
+      "negs": [
+        "No significa que los papers mientan.",
+        "No significa que quien escribe el titular lo haga de mala fe.",
+        "No significa que tengas que leerte todo arXiv cada mañana."
+      ],
+      "si": "Sí significa que un titular es una hipótesis hasta que abres la fuente.",
+      "art": {
+        "type": "doodle",
+        "id": "mapa",
+        "pos": "cc",
+        "h": 250
+      }
+    },
+    {
+      "n": 7,
+      "kind": "nums",
+      "ts": "72px",
+      "title": "Cinco preguntas antes de creerle a un titular",
+      "nums": [
+        "¿Bajo qué condiciones? Setup, intentos, presupuesto, tiempo.",
+        "¿Contra quién se comparó, y esa comparación era válida?",
+        "¿Qué advierte el propio autor dentro del texto?",
+        "¿Quién publica el benchmark y quién quedó fuera de él?",
+        "¿El titular afirma algo que el estudio sólo midió?"
+      ],
+      "label": "Si no puedes contestar las cinco, todavía no lo leíste.",
+      "art": {
+        "type": "doodle",
+        "id": "papel",
+        "pos": "br",
+        "h": 240
+      }
+    },
+    {
+      "n": 8,
+      "kind": "caso",
+      "ts": "76px",
+      "title": "Tres titulares que su propio paper desmiente",
+      "lab": "LO QUE DICE EL PAPER",
+      "lines": [
+        "Agentes contra investigadores humanos: el paper dice textual que «no tratamos esto como una comparación directa».",
+        "Los humanos tuvieron un intento sin iterar; los agentes probaron ~150 métodos por fallo.",
+        "El famoso $4/hora contra $150/hora no incluye el cómputo de entrenamiento.",
+        "Otro estudio: el humano experto cumplió 20 de 21 objetivos, pero ese baseline son las notas retrospectivas de un solo jugador, y quien lo publicó lo aclara."
+      ],
+      "foot": "Y hay un benchmark de voz donde quien lo publica no incluye ninguno de sus propios modelos.",
+      "art": {
+        "type": "pichu",
+        "id": "p52",
+        "pos": "br",
+        "fallback": "carpeta"
+      }
+    },
+    {
+      "n": 9,
+      "kind": "checks",
+      "ts": "82px",
+      "title": "Lo que sí te conviene recordar",
+      "checks": [
+        "Todo resultado viene con condiciones; el titular no.",
+        "Sin baseline, «supera a X» no significa nada.",
+        "El autor casi siempre ya escribió la salvedad.",
+        "Un intento contra ciento cincuenta no es la misma prueba.",
+        "El costo por hora no es el costo total.",
+        "Fíjate también en quién no aparece en el benchmark."
+      ],
+      "band": {
+        "lab": "ANTES DE COMPARTIR",
+        "txt": "La distorsión no está en el paper: está en el puente."
+      },
+      "art": {
+        "type": "doodle",
+        "id": "lupa",
+        "pos": "br",
+        "h": 250
+      }
+    },
+    {
+      "n": 10,
+      "kind": "final",
+      "ts": "64px",
+      "title": "Abre. Busca la condición.<br>Busca el baseline.<br>Vuelve al titular.",
+      "ask": "¿Cuál fue el último titular de IA que compartiste sin abrir la fuente?",
+      "follow": "Sígueme para más",
+      "send": "Mándaselo a quien le pasa esto.",
+      "tape": "Explico la IA sin humo: lo que dice el estudio, no lo que grita el feed.",
+      "art": {
+        "type": "pichu",
+        "id": "p54",
+        "pos": "cc",
+        "fallback": "burbujas"
+      }
+    }
+  ]
+}

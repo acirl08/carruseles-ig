@@ -1,0 +1,245 @@
+{
+  "id": "Carrusel 10",
+  "titulo": "Le preguntas por hoy y te contesta con el mundo de hace meses",
+  "audiencia": "emprendedores",
+  "nota": "Diez slides. Lo único fijo es el óvalo con el número y el titular subrayado; de ahí para abajo cada slide se compone distinto.",
+  "caption": "Le preguntas algo de esta semana y te contesta con el mundo de hace meses. Con la misma seguridad con la que te da algo cierto. 📅\n\nNo está desactualizada: está congelada. Lo que sabe quedó fijo el día que terminaron de entrenarla —a eso le dicen fecha de corte— y desde ahí no aprendió nada nuevo por su cuenta. Ni siquiera sabe qué día es hoy si tú no se lo escribes. Y cuando busca en internet tampoco aprende lo que encontró: lo lee ahí mismo, en esa conversación, y mañana vuelve a no saberlo. 🧊\n\nPor eso lo primero que se le rompe es lo que cambia rápido: precios, planes, leyes, requisitos, funciones de apps. ✋\n\n¿Qué dato de tu negocio cambia tan seguido que mejor no deberías preguntárselo a ella?\n\n⸻\n\n#claudeai #inteligenciaartificial #iaparaemprendedores #negociosconia #aprendeia",
+  "poses": [
+    {
+      "id": "p55",
+      "slide": 1,
+      "desc": "Standing and looking up at a wall calendar with one wing raised pointing at a loose page, its crest is fully upright with the three feathers separated."
+    },
+    {
+      "id": "p56",
+      "slide": 2,
+      "desc": "Seen in profile beside a folded newspaper taller than itself, its body leaning back, its crest is fully upright with the three feathers separated."
+    },
+    {
+      "id": "p57",
+      "slide": 7,
+      "desc": "Standing next to a clipboard with empty checkboxes and one wing resting on top, in the posture of someone about to tick them off, its crest is neutral and its body faces front."
+    },
+    {
+      "id": "p58",
+      "slide": 8,
+      "desc": "Turned toward a price tag hanging from a cord while its body still points to the front, its crest is neutral and its body faces front."
+    },
+    {
+      "id": "p59",
+      "slide": 9,
+      "desc": "Sitting calmly beside a filing box with one card sticking out and its chest feathers fluffed, its crest is relaxed and settled down."
+    },
+    {
+      "id": "p60",
+      "slide": 10,
+      "desc": "Seen in profile looking slightly up and out of frame with its feet together, next to a desk calendar whose page for the day is blank, its crest is relaxed and settled down."
+    }
+  ],
+  "slides": [
+    {
+      "n": 1,
+      "kind": "cover",
+      "eyebrow": "TE LLEGA UNA RESPUESTA SEGURA Y ES DE OTRO MOMENTO",
+      "hook": "Le preguntas por hoy<br>y te contesta con el mundo <em>de hace meses</em>",
+      "tape": "¿Te ha pasado?",
+      "art": {
+        "type": "pichu",
+        "id": "p55",
+        "pos": "big",
+        "fallback": "reloj"
+      }
+    },
+    {
+      "n": 2,
+      "kind": "ciclo",
+      "ts": "74px",
+      "title": "La IA suena segura aunque el dato sea de hace tiempo",
+      "chain": [
+        [
+          "Preguntas algo de hoy",
+          "te contesta con lo que aprendió hace tiempo"
+        ],
+        [
+          "Suena actual",
+          "ni se te ocurre verificarlo"
+        ],
+        [
+          "Lo metes en tu presupuesto",
+          "el dato ya había cambiado"
+        ],
+        [
+          "Le pides que busque",
+          "lo lee una vez y mañana ya no lo sabe"
+        ]
+      ],
+      "band": {
+        "lab": "CÓMO SUENA",
+        "txt": "Suena actual. No lo es."
+      },
+      "art": {
+        "type": "pichu",
+        "id": "p56",
+        "pos": "bl",
+        "fallback": "papel"
+      }
+    },
+    {
+      "n": 3,
+      "kind": "costo",
+      "ts": "90px",
+      "title": "No te lo estás inventando tú",
+      "quotes": [
+        "«Me dio un precio que ya no existe.»",
+        "«Me habló de una función que quitaron.»",
+        "«Ya no sé qué creerle.»"
+      ],
+      "solid": "No es descuido ni mala fe: te contesta desde el último día que la enseñaron.",
+      "art": {
+        "type": "doodle",
+        "id": "recibo",
+        "pos": "br",
+        "h": 240
+      }
+    },
+    {
+      "n": 4,
+      "kind": "concepto",
+      "ts": "88px",
+      "title": "No está desactualizada:<br><em>está congelada</em>",
+      "defn": "Lo que sabe quedó fijo el día que terminaron de entrenarla. A ese día le dicen <span class=\"hl\">fecha de corte</span>.",
+      "box": [
+        "Desde ahí no aprendió nada nuevo por su cuenta.",
+        "Ni siquiera sabe qué día es hoy, salvo que se lo escribas."
+      ],
+      "pp": {
+        "h": "En pocas palabras:",
+        "t": "No es una foto vieja: es una foto."
+      },
+      "art": {
+        "type": "doodle",
+        "id": "calendario",
+        "pos": "bl",
+        "h": 240
+      }
+    },
+    {
+      "n": 5,
+      "kind": "split",
+      "ts": "84px",
+      "title": "Buscar en internet no la pone al día",
+      "lines": [
+        "Cuando busca, no aprende lo que encontró.",
+        "Lo pega en la conversación y lo lee ahí mismo.",
+        "En el siguiente chat vuelve a no saberlo."
+      ],
+      "band": {
+        "lab": "LO QUE NO TE AVISA",
+        "txt": "Lee la nota. No se la queda."
+      },
+      "art": {
+        "type": "doodle",
+        "id": "lupa",
+        "pos": "inl"
+      }
+    },
+    {
+      "n": 6,
+      "kind": "negs",
+      "ts": "88px",
+      "title": "Qué significa esto y qué no",
+      "negs": [
+        "No significa que te esté mintiendo.",
+        "No significa que el plan más caro sepa más de hoy.",
+        "No significa que con buscar quede resuelto para siempre."
+      ],
+      "si": "Sí significa que lo que cambia rápido te toca confirmarlo a ti, cada vez.",
+      "art": {
+        "type": "doodle",
+        "id": "arena",
+        "pos": "cc",
+        "h": 250
+      }
+    },
+    {
+      "n": 7,
+      "kind": "nums",
+      "ts": "76px",
+      "title": "Cinco reglas antes de creerle un dato",
+      "nums": [
+        "Pregúntate primero si ese dato cambia: precios, planes, leyes y requisitos cambian.",
+        "Si la fecha importa, escríbesela: hoy no la sabe.",
+        "Si buscó, pídele de dónde lo sacó y ábrelo tú.",
+        "Lo que cambia rápido se confirma en la fuente, nunca en el chat.",
+        "Lo que buscó hoy no lo sabrá mañana: guárdalo tú, no ella."
+      ],
+      "label": "Lo que cambia rápido, se confirma afuera.",
+      "art": {
+        "type": "pichu",
+        "id": "p57",
+        "pos": "br",
+        "fallback": "libro"
+      }
+    },
+    {
+      "n": 8,
+      "kind": "caso",
+      "ts": "72px",
+      "title": "Le pides los planes y te cotiza uno que ya no existe",
+      "lab": "UN CASO TÍPICO",
+      "lines": [
+        "Le preguntas cuánto cuesta una herramienta para armar tu presupuesto.",
+        "Llega una lista ordenada, con nombres y precios.",
+        "Los nombres cambiaron y el plan barato lo quitaron.",
+        "De los negocios que asesoro, lo que más se le cae son los datos que cambian de precio."
+      ],
+      "foot": "Te lo dio con la misma seguridad que un dato cierto.",
+      "art": {
+        "type": "pichu",
+        "id": "p58",
+        "pos": "br",
+        "fallback": "etiqueta"
+      }
+    },
+    {
+      "n": 9,
+      "kind": "list6",
+      "ts": "84px",
+      "title": "Lo que sí te conviene recordar",
+      "checks": [
+        "Lo que sabe quedó congelado un día.",
+        "No sabe qué día es hoy.",
+        "Buscar no es aprender.",
+        "Precios, leyes y requisitos: siempre a la fuente.",
+        "El tono seguro no dice nada de la fecha.",
+        "Lo de hoy lo pones tú en el mensaje."
+      ],
+      "band": {
+        "lab": "GUÁRDATE ESTO",
+        "txt": "Buscar no es lo mismo que aprender."
+      },
+      "art": {
+        "type": "pichu",
+        "id": "p59",
+        "pos": "bl",
+        "fallback": "caja"
+      }
+    },
+    {
+      "n": 10,
+      "kind": "final",
+      "ts": "62px",
+      "title": "Pregunta. Duda de la fecha.<br>Confirma. Guarda el dato.",
+      "ask": "¿Qué dato de tu negocio cambia tan seguido que mejor no deberías preguntárselo a ella?",
+      "follow": "Sígueme para más",
+      "send": "Mándaselo a quien le pasa esto.",
+      "tape": "Explico la IA sin humo, para que sepas qué le puedes creer y qué te toca verificar.",
+      "art": {
+        "type": "pichu",
+        "id": "p60",
+        "pos": "cc",
+        "fallback": "campana"
+      }
+    }
+  ]
+}

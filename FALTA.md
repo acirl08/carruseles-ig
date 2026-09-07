@@ -44,10 +44,15 @@ cd corto && node build-corto.mjs      # sin errores = firmadas
 
 ---
 
-## 2 · Los 22 cortos del backlog — no bloquea, pero degrada el domingo
+## 2 · Los cortos pendientes del backlog — no bloquea, pero degrada el domingo
 
 `backlog/pendientes.json` está vacío. Mientras siga así, el motor de señal compara duplicados
-contra 13 temas cuando el universo real es mayor: una criba con el fondo abierto.
+contra los 13 temas publicados cuando el universo real es mayor: una criba con el fondo
+abierto.
+
+*(El manual habla de "22 cortos pendientes". Esa cifra viene de la conversación donde se
+construyó el sistema y **no hay ningún archivo aquí que la respalde** — puede ser otro número.
+Lo que importa no es cuántos son, sino que hoy no están.)*
 
 Cada tema necesita `id`, `titulo`, `carril` (`largo` o `corto`) y **`arreglo`** — el mecanismo,
 que es por donde se detecta el duplicado, no por el titular.
@@ -74,7 +79,7 @@ cuando la decisión era Buffer.
 
 | | |
 |---|---|
-| Motor largo y corto en el repo | ✅ 106 archivos |
+| Motor largo y corto en el repo | ✅ comprobado por URL, archivo por archivo |
 | Los dos pipelines corren desde un clon limpio | ✅ comprobado |
 | 85 guardas | ✅ 85/85 |
 | Captions | ✅ 13/13 |

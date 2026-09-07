@@ -1,7 +1,8 @@
 # El backlog vive aquí
 
-Cerraba el hueco 1 de `13-HUECOS`: existían **22 cortos pendientes** y un backlog de ideas de
-Pilar 2, pero su ubicación no estaba documentada en ninguna parte alcanzable. Consecuencia:
+Cerraba el hueco 1 de `13-HUECOS`: existen cortos pendientes y un backlog de ideas de Pilar 2,
+pero su ubicación no estaba documentada en ninguna parte alcanzable. *(El manual dice "22". Esa
+cifra viene de la conversación donde se construyó el sistema y ningún archivo la respalda.)* Consecuencia:
 el motor de señal comparaba duplicados contra los 13 temas publicados cuando el universo real
 es mayor — una criba con el fondo abierto.
 
@@ -45,7 +46,7 @@ node backlog/check-backlog.mjs      # "sin hallazgos" o no subas
 
 ## Lo que este archivo NO sabe
 
-Los 22 cortos pendientes reales y el backlog de Pilar 2 **no están aquí**: nunca estuvieron en
-un sitio alcanzable. Lo que hay es la estructura y el verificador. **El contenido lo pone
+Los cortos pendientes reales y el backlog de Pilar 2 **no están aquí**: nunca estuvieron en un
+sitio alcanzable. Lo que hay es la estructura y el verificador. **El contenido lo pone
 Isabela** — hasta que lo haga, el fondo de la criba sigue abierto y el motor debe decirlo en
 la entrega, como manda `05`.

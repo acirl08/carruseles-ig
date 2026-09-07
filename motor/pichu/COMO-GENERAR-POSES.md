@@ -15,8 +15,10 @@ entrenado: es pasarle una pose existente como referencia visual.
 
 ## El procedimiento
 
-**1. Importa una pose existente como referencia.** Desde que el motor está en el repo, las 54
-tienen URL pública:
+**1. Importa una pose existente como referencia.** Desde que el motor está en el repo, las
+poses tienen URL pública. Ojo con los dos números, que no son el mismo: hay **60 PNG** en
+`motor/pichu/` y **54 catalogadas** en `motor/poses.json` (contados, no de memoria). Cualquiera
+de los 60 sirve como referencia visual; solo las catalogadas tienen `desc` escrito.
 
 ```
 media_import_url("https://raw.githubusercontent.com/acirl08/carruseles-ig/main/motor/pichu/p01.png")
@@ -59,7 +61,9 @@ estado de la cresta.
 
 ## Coste
 
-2 créditos por imagen (comprobado con `get_cost`). El saldo se consulta con `balance`.
+2 créditos por imagen en `nano_banana_pro` a 2k — consultado con `get_cost` el 7 de septiembre
+de 2026, no está fijado por contrato y puede cambiar. **Compruébalo antes de una tanda grande**:
+`get_cost: true` en la llamada devuelve el costo sin generar nada, y `balance` da el saldo.
 
 ## Lo que este documento NO cubre
 

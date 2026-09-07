@@ -49,7 +49,8 @@
     {
       "kind": "cierreRecap",
       "pregunta": "¿Cuál de las cinco te sirve hoy?",
-      "cta": "Sígueme para el recap de la próxima semana"
+      "cta": "Sígueme para el recap de la próxima semana",
+      "cierre": "Eso fue la semana en IA"
     }
   ]
 }

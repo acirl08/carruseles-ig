@@ -15,7 +15,7 @@
     {
       "kind": "diagnostico",
       "ts": "92px",
-      "verificado": false,
+      "verificado": true,
       "copy": "No se le olvida. Es que cada chat empieza en blanco.",
       "boc": "Me escriben para preguntarme cómo hacer que <em>se acuerde</em>. No se acuerda de nada, y no hace falta: la hoja en blanco la llenas tú una vez."
     },
@@ -50,7 +50,7 @@
       "ts": "86px",
       "copy": "El lunes empiezas donde terminaste el viernes",
       "pale": true,
-      "verificado": false,
+      "verificado": true,
       "boc": "En mis pruebas la diferencia no está en la primera respuesta: está en que la décima ya no repite el error que corregiste en la segunda."
     },
     {

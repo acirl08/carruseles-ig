@@ -9,40 +9,20 @@ el motor aún no estaba en el repo.
 
 ---
 
-## 1 · Las cuatro firmas — bloquea 3 de las 5 publicaciones
+## 1 · Las cuatro firmas — HECHO el 7 de septiembre
 
-El Corto 02 y el Corto 03 **no construyen** sin ellas: `build-corto.mjs` sale con exit 1. Eso
-es la funcionalidad, no un fallo.
+Isabela las confirmó con `node corto/firmar.mjs`. Los tres cortos construyen, `check-corto.mjs`
+no reporta hallazgos y sus 20 PNG están en el repo y programados en Buffer.
 
-Nadie más puede ponerlas. `04-CARRUSEL-CORTO.md`: *"Nunca la pongas tú. Se pone cuando ella
-lee la frase y confirma que es cierta."*
-
-### Corto 02 — «Pegaste la tabla y te inventó los totales»
-
-1. *"Me pasan reportes hechos con IA y los números no cuadran"* + *"Lo primero que reviso no es
-   el análisis: es de dónde salió cada cifra. Casi siempre salió del chat, no de la hoja."*
-2. *"En mis pruebas el cambio no es que acierte más: es que ya no tienes que desconfiar de cada
-   cifra antes de usarla."*
-
-### Corto 03 — «Le explicas tu negocio otra vez cada mañana»
-
-3. *"Me escriben para preguntarme cómo hacer que se acuerde. No se acuerda de nada, y no hace
-   falta: la hoja en blanco la llenas tú una vez."*
-4. *"En mis pruebas la diferencia no está en la primera respuesta: está en que la décima ya no
-   repite el error que corregiste en la segunda."*
-
-**Si son ciertas**: pon `"verificado": true` en el slide que la lleva, dentro de
-`corto/data/s02-totales.json` y `s03-contexto.json`.
-
-**Si alguna no lo es**: reescríbela sin la afirmación. Reescribir *para esquivar el validador*
-está prohibido; reescribir porque **decides no hacer esa afirmación** es legítimo.
+Para la próxima tanda, el flujo ya no es editar JSON a mano:
 
 ```bash
-source entorno.sh
-cd corto && node build-corto.mjs      # sin errores = firmadas
+cd corto && node firmar.mjs
 ```
 
----
+Muestra cada frase pendiente con su contexto y escribe `"verificado": true` solo donde ella
+dice que sí. No tiene "marcar todas" a propósito: firmar de más devalúa la firma. Con `[n]`
+abre `$EDITOR` para reescribir y revalida al guardar.
 
 ## 2 · Los cortos pendientes del backlog — no bloquea, pero degrada el domingo
 
@@ -63,7 +43,22 @@ node backlog/check-backlog.mjs        # "sin hallazgos" antes de subir
 
 ---
 
-## 3 · Confirmar el prompt del disparador — no verificable desde aquí
+## 3 · La cola se deja llena a propósito — decisión del 7 de septiembre
+
+Buffer topa en **10 posts programados** y la cola está en 10/10. Isabela decidió **no dejar
+huecos libres** antes del domingo: prefiere ver los temas que propone la tarea y decidir ella
+qué entra y qué sale.
+
+**Consecuencia esperada, no un fallo**: el domingo entrega los cinco temas con su evidencia y
+sus frases de firma, pero **no programa nada**, porque `05-MOTOR-DE-SENAL.md` manda comprobar
+el espacio en la cola antes de asignar slots y no hay. La entrega sirve igual: es la lista de
+lo que se puede publicar en cuanto se libere un hueco.
+
+Para liberar espacio, sacar el post más lejano de la cola y volver a crearlo después: los
+JSON y los PNG siguen en el repo, así que reprogramar es rehacer la llamada, no rehacer el
+carrusel.
+
+## 4 · Confirmar el prompt del disparador — no verificable desde aquí
 
 `07-AUTOMATIZACION.md` dice que el prompt se reescribió el 3 de septiembre para que mande leer
 los dos documentos y programar por **Buffer** en modo notificación. **No se ha podido
@@ -74,6 +69,27 @@ Vale la pena mirarlo antes del 13, porque ese prompt ya estuvo mal una vez: dec�
 cuando la decisión era Buffer.
 
 ---
+
+## La cola hoy (7 de septiembre)
+
+| Fecha | Formato | Tema |
+|---|---|---|
+| mar 8 sep | largo | Olvida lo que le dijiste |
+| **mié 9 sep** | **corto** | Escribiera como tú → folleto |
+| jue 10 sep | largo | Fecha de corte |
+| **vie 11 sep** | **corto** | Te inventó los totales |
+| **dom 14 sep** | **corto** | Le explicas otra vez cada mañana |
+| mar 15 sep | largo | Predice |
+| jue 17 sep | largo | Prompt |
+| mar 22 sep | largo | Otra respuesta |
+| jue 24 sep | largo | No aprende |
+| lun 29 sep | largo | Interrumpe |
+
+Los tres cortos van en **modo notificación**: Buffer avisa a la hora, Isabela abre, pone
+música y publica. Sin música el carrusel no entra a la pestaña de Reels.
+
+Salieron de la cola para hacerles sitio, y se pueden reprogramar cuando haya hueco:
+**Cuatro dólares**, **Titular** y **Razonamiento**.
 
 ## Lo que ya NO falta
 

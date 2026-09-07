@@ -21,7 +21,7 @@
     {
       "kind": "credibilidad",
       "ts": "94px",
-      "verificado": false,
+      "verificado": true,
       "copy": "Me pasan reportes hechos con IA y los números no cuadran",
       "boc": "Lo primero que reviso no es el análisis: es <em>de dónde salió cada cifra</em>. Casi siempre salió del chat, no de la hoja."
     },
@@ -56,7 +56,7 @@
       "ts": "88px",
       "copy": "Dejas de revisar números y empiezas a revisar decisiones",
       "pale": true,
-      "verificado": false,
+      "verificado": true,
       "boc": "En mis pruebas el cambio no es que acierte más: es que ya no tienes que desconfiar de cada cifra antes de usarla."
     },
     {

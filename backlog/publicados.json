@@ -1,0 +1,96 @@
+{
+  "nota": "Generado el 7 de septiembre de 2026 desde el slide `concepto` de cada mazo, que es donde vive la definicion del mecanismo. El duplicado se detecta por el ARREGLO, no por el titulo.",
+  "publicados": [
+    {
+      "id": "c01",
+      "slug": "predice",
+      "carril": "largo",
+      "titulo": "Sonaba perfecto. No era lo que pediste",
+      "arreglo": "Predice: elige la palabra que suele seguir, y luego la siguiente. Así arma <span class=\"hl\">la continuación más probable</span> de tu texto."
+    },
+    {
+      "id": "c02",
+      "slug": "olvida",
+      "carril": "largo",
+      "titulo": "Por qué olvida lo que ya le dijiste",
+      "arreglo": "En cada mensaje se le vuelve a pasar la conversación entera. Lee <span class=\"hl\">lo que quepa</span> y contesta con eso."
+    },
+    {
+      "id": "c03",
+      "slug": "otra-respuesta",
+      "carril": "largo",
+      "titulo": "Misma pregunta, otra respuesta",
+      "arreglo": "En cada palabra escoge una entre varias probables. El dado está cargado hacia lo esperable, pero <span class=\"hl\">sigue siendo un dado</span>."
+    },
+    {
+      "id": "c04",
+      "slug": "prompt",
+      "carril": "largo",
+      "titulo": "El prompt mágico que en tus manos no hace nada",
+      "arreglo": "Lo único que mueve la respuesta es lo que <span class=\"hl\">reduce opciones</span>. Quién lo va a leer. Para qué. En qué formato. Con qué ejemplo."
+    },
+    {
+      "id": "c05",
+      "slug": "razonamiento",
+      "carril": "largo",
+      "titulo": "Ves \"pensando…\" y bajas la guardia",
+      "arreglo": "Cada palabra que escribe se vuelve parte de <span class=\"hl\">lo que lee</span> para escribir la siguiente."
+    },
+    {
+      "id": "c06",
+      "slug": "interrumpe",
+      "carril": "largo",
+      "titulo": "Por qué te interrumpe o te deja hablando solo",
+      "arreglo": "Al conversar empiezas a hablar <span class=\"hl\">151 milisegundos</span> antes de que el otro termine. No esperas el silencio: predices el final."
+    },
+    {
+      "id": "c07",
+      "slug": "cuatro-dolares",
+      "carril": "largo",
+      "titulo": "Los 4 dólares la hora no son 4 dólares la hora",
+      "arreglo": "Los humanos: 28 investigadores con unos 2.5 años de experiencia, hasta 8 horas cada uno, <span class=\"hl\">un solo intento</span>, sin iterar."
+    },
+    {
+      "id": "c08",
+      "slug": "no-aprende",
+      "carril": "largo",
+      "titulo": "Por qué no aprende de lo que le corriges",
+      "arreglo": "Cuando le corriges, ajusta <span class=\"hl\">esa respuesta</span> y nada más. El único que sale distinto de esa corrección eres tú."
+    },
+    {
+      "id": "c09",
+      "slug": "titular",
+      "carril": "largo",
+      "titulo": "El paper no miente: miente el puente",
+      "arreglo": "El estudio mide un <span class=\"hl\">resultado condicionado</span>. El titular te entrega un veredicto."
+    },
+    {
+      "id": "c10",
+      "slug": "fecha-corte",
+      "carril": "largo",
+      "titulo": "Le preguntas por hoy y te contesta con el mundo de hace meses",
+      "arreglo": "Lo que sabe quedó fijo el día que terminaron de entrenarla. A ese día le dicen <span class=\"hl\">fecha de corte</span>."
+    },
+    {
+      "id": "s01",
+      "slug": "como-tu",
+      "carril": "corto",
+      "titulo": "Le pediste que escribiera como tú y salió un folleto",
+      "arreglo": "TRES TEXTOS TUYOS Correos, mensajes, publicaciones. Reales, ya enviados, sin maquillar. UNO QUE NO ERES TÚ Algo que suene a lo que quieres evitar. El contraste enseña más que el adjetivo. QUÉ CAMBIA Y QUÉ NO Qué se adapta según a quién le escribes, y qué se queda igual siempre."
+    },
+    {
+      "id": "s02",
+      "slug": "totales",
+      "carril": "corto",
+      "titulo": "Pegaste la tabla y te inventó los totales",
+      "arreglo": "PÍDELE LA FÓRMULA No el resultado. La fórmula la corre tu hoja, que sí sabe sumar. O PÍDELE EL CÓDIGO Si la tabla es grande, que escriba el script. Lo ejecutas tú y ves el paso. QUE MUESTRE EL CAMINO Si insiste en darte el número, que escriba antes cómo lo obtuvo."
+    },
+    {
+      "id": "s03",
+      "slug": "contexto",
+      "carril": "corto",
+      "titulo": "Le explicas tu negocio otra vez cada mañana",
+      "arreglo": "QUÉ HACES Y PARA QUIÉN En las palabras que usas con un cliente, no en las de tu página web. LO QUE NUNCA DICES Las palabras que te dan pena. Ahí es donde suena a otra persona. TRES EJEMPLOS TUYOS Textos reales ya enviados. Muestran el tono mejor que cualquier adjetivo."
+    }
+  ]
+}

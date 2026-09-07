@@ -1,0 +1,13 @@
+{
+  "nota": "VACÍO A PROPÓSITO. Los 22 cortos pendientes y el backlog de Pilar 2 no están en ningún sitio alcanzable — es el hueco 1 de 13-HUECOS. Esta es la estructura; el contenido lo pone Isabela. Mientras 'temas' esté vacío, el motor de señal debe decir en la entrega que comparó con el fondo abierto.",
+  "ejemplo": {
+    "id": "ejemplo",
+    "titulo": "Cómo se llama la idea, en una frase",
+    "carril": "corto",
+    "pilar": 2,
+    "arreglo": "El mecanismo que explica el tema. Por AQUÍ se detecta el duplicado, no por el título.",
+    "sintoma": "Lo que el lector vive y reconoce, en sus palabras",
+    "notas": "Lo que haga falta recordar cuando llegue su turno"
+  },
+  "temas": []
+}

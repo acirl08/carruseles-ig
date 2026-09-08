@@ -40,6 +40,46 @@
       "sintoma": "Te promete el .xlsx, aparece el enlace, y al abrirlo no hay nada",
       "evidencia": "https://community.openai.com/t/file-creation-excel-spreadsheet/864609",
       "notas": "Verificar primero que el síntoma siga vigente: puede estar arreglado en las versiones nuevas."
+    },
+    {
+      "id": "t04",
+      "titulo": "Escribes las reglas arriba y a los tres mensajes deja de seguirlas",
+      "carril": "largo",
+      "pilar": 1,
+      "arreglo": "Las instrucciones no son una configuración: son texto más, en la misma cola que todo lo demás. Conforme la conversación crece compiten con lo reciente, y lo reciente pesa más porque está más cerca.",
+      "sintoma": "Pusiste «nunca uses viñetas» en las instrucciones y a los tres mensajes vuelven las viñetas",
+      "evidencia": "https://community.openai.com/t/how-to-solve-the-problem-of-forgetting-custom-instructions/933285",
+      "notas": "Distinto de c02: c02 explica que se cae lo viejo; esto explica que las instrucciones NUNCA fueron especiales, solo texto."
+    },
+    {
+      "id": "t05",
+      "titulo": "Te traduce al español y suena a traducción",
+      "carril": "corto",
+      "pilar": 2,
+      "arreglo": "Traduce palabra por palabra la estructura del inglés en vez de reescribir la idea en español. Y el español que aprendió es el promedio de todos: ni el de México ni el de España.",
+      "sintoma": "Lees el texto traducido y sabes que no lo escribió alguien de aquí",
+      "evidencia": "https://arxiv.org/pdf/2407.03658",
+      "notas": "Corto: hay arreglo claro — pedir que reescriba para un lector de tu país, con un ejemplo de cómo hablas."
+    },
+    {
+      "id": "t06",
+      "titulo": "Le pides una imagen con texto y el texto sale con faltas",
+      "carril": "largo",
+      "pilar": 1,
+      "arreglo": "El generador de imágenes no escribe letras: dibuja formas que se parecen a letras. No sabe deletrear porque no está leyendo, está pintando.",
+      "sintoma": "Pides una portada con una palabra y sale escrita mal, o con letras inventadas",
+      "evidencia": "https://community.openai.com/t/dall-e-is-illiterate-with-the-text-it-adds-in-images/570654",
+      "notas": "Ojo con la recencia: los modelos nuevos mejoraron mucho en esto. Verificar que el síntoma siga vigente antes de producirlo."
+    },
+    {
+      "id": "t07",
+      "titulo": "Le pides que NO haga algo y lo hace igual",
+      "carril": "corto",
+      "pilar": 1,
+      "arreglo": "Una instrucción negativa le obliga a tener el concepto presente para evitarlo, y tenerlo presente sube su probabilidad. Decir «no menciones el precio» pone la palabra precio en la conversación.",
+      "sintoma": "«No menciones el retraso» y en el primer párrafo menciona el retraso",
+      "evidencia": "https://community.openai.com/t/completely-ignoring-prompt-rules-despite-clearly-setting-rules-that-cannot-be-overseen-help-please/1261246",
+      "notas": "Corto: el arreglo es decirle qué SÍ hacer en vez de qué no. Verificar que no duplique el arreglo de c04 (prompt = contexto)."
     }
   ]
 }

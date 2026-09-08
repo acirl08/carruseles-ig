@@ -13,42 +13,42 @@
     },
     {
       "kind": "noticia",
-      "titular": "EL MODELO DE OPENAI YA USA LA COMPUTADORA",
-      "resumen": "GPT-6 Astra trabaja dentro del software en vez de decirte qué hacer: navega, analiza datos y arma documentos y hojas de cálculo por su cuenta.",
-      "paraTi": "Deja de ser el que te dicta los pasos y pasa a ser el que los ejecuta. La pregunta ya no es qué te recomienda, sino qué le dejas tocar.",
-      "fuente": "https://www.cnbc.com/2026/09/03/open-ai-astra-gpt-6-cyber.html",
+      "titular": "EL DE OPENAI OPERA TU COMPUTADORA",
+      "resumen": "GPT-6 Astra está hecho menos para conversar y más para manejar la máquina: hace clic, escribe, lee la pantalla y termina trabajos con mucha menos supervisión. Cuesta 10 dólares por millón de tokens de entrada.",
+      "paraTi": "Pasa de aconsejarte a ejecutar. Antes de darle acceso a algo tuyo, escribe qué NO puede tocar — esa lista es tu único freno.",
+      "fuente": "https://alphasignal.ai/news/openai-s-gpt-6-astra-hits-99-9-on-agi-benchmarks-and-runs-your-computer",
       "comprobada": true
     },
     {
       "kind": "noticia",
-      "titular": "GEMINI FLASH SUBE DE PRECIO EN ENERO",
-      "resumen": "La versión nueva cuesta lo mismo que la anterior —0.75 dólares por millón de tokens de entrada— y rinde más. Pero el 1 de enero de 2027 ese precio se duplica.",
-      "paraTi": "Si algo tuyo corre sobre Gemini Flash, tienes cuatro meses para calcular qué te costará al doble. No te enteres en la factura de enero.",
-      "fuente": "https://www.eesel.ai/blog/gemini-3-8-flash",
+      "titular": "GEMINI FLASH CUESTA 6 VECES MENOS QUE OPUS",
+      "resumen": "Gemini 3.8 Flash cobra 0.75 dólares por millón de entrada contra los 5 de Claude Opus 5. En la prueba de agentes financieros de Vals saca 10.0% de aciertos frente al 6.7% de Opus 5.",
+      "paraTi": "El modelo caro dejó de ser automáticamente el mejor. Corre tu tarea en los dos y compara: la diferencia de precio es de seis veces.",
+      "fuente": "https://alphasignal.ai/news/google-deepmind-s-gemini-3-8-flash-beats-claude-opus-5-at-6x-lower-cost",
       "comprobada": true
     },
     {
       "kind": "noticia",
-      "titular": "EL DE META PREGUNTA ANTES DE ROMPER ALGO",
-      "resumen": "Muse Spark 1.3 pide aclaración cuando la instrucción es ambigua y confirma antes de una acción con consecuencias. Meta reporta 20% menos llamadas a herramientas que la versión anterior.",
-      "paraTi": "Esa pausa es lo que separa un asistente de un accidente. Si le vas a dar acceso a algo tuyo, exige que pregunte antes de borrar.",
-      "fuente": "https://research.meta.ai/blog/introducing-muse-spark-1-3",
+      "titular": "ALIBABA SACÓ UNO QUE CORRES EN TU EQUIPO",
+      "resumen": "Qwen3.8-Flash-Next es de pesos abiertos: se descarga y corre en tu propia máquina. Lo entrenaron por una novena parte de lo que costó la versión anterior, igualándola o superándola.",
+      "paraTi": "Si manejas datos que no quieres mandar a la nube de nadie, ya hay opción seria. Antes era eso o calidad; ahora no.",
+      "fuente": "https://alphasignal.ai/news/alibaba-s-qwen3-8-flash-next-hits-10x-long-context-speed-at-1-9-training-cost",
+      "comprobada": true
+    },
+    {
+      "kind": "noticia",
+      "titular": "UN FALLO EN LITELLM DEJA ENTRAR SIN CLAVE",
+      "resumen": "Un bypass de autenticación en LiteLLM anterior a la versión 1.84.0 permite llamar a las herramientas conectadas sin credenciales válidas. Gravedad 8.8, alta, con intentos de explotación en curso.",
+      "paraTi": "Si alguien montó tu IA con LiteLLM, actualiza a 1.84.0 hoy. Si no puedes, bloquea el acceso externo a las rutas /mcp/.",
+      "fuente": "https://www.ionix.io/threat-center/cve-2026-59822/",
       "comprobada": true
     },
     {
       "kind": "noticia",
       "titular": "ANTHROPIC BAJÓ 75% EL COSTO DE RELEER",
       "resumen": "Lo que el modelo vuelve a leer de una conversación larga pasó a costar 0.25 dólares por millón de tokens, la cuarta parte de antes.",
-      "paraTi": "Si le pegas el mismo documento cada mañana, esa parte repetida es la que se abarató. Lo que antes hacías corto para no gastar, ahora cabe.",
+      "paraTi": "Si le pegas el mismo documento cada mañana, esa parte repetida es la que se abarató. Lo que hacías corto para no gastar, ahora cabe.",
       "fuente": "https://releasebot.io/updates/anthropic",
-      "comprobada": true
-    },
-    {
-      "kind": "noticia",
-      "titular": "CUATRO EMPRESAS LANZARON EN SIETE DÍAS",
-      "resumen": "OpenAI, Google, Meta y Anthropic sacaron modelo entre el 1 y el 3 de septiembre. Qwen sacó uno abierto el día 2.",
-      "paraTi": "A esta velocidad, un contrato de doce meses te ata a algo que en marzo será viejo y caro. Negocia plazos cortos o cláusula de salida.",
-      "fuente": "https://llmgateway.io/timeline",
       "comprobada": true
     },
     {

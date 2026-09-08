@@ -70,6 +70,17 @@ export const CSS = CSS_CORTO + `
 
 export { PRIM };
 
+// Las URLs largas se salen del slide: check-corto lo reporta como "recorte
+// horizontal". Se muestra el dominio y el final de la ruta, que es lo que el
+// lector puede teclear; la URL completa sigue en el JSON.
+const corta = u => {
+  const limpia = String(u).replace(/^https?:\/\/(www\.)?/, '').replace(/\/$/, '');
+  if (limpia.length <= 52) return limpia;
+  const [dom, ...resto] = limpia.split('/');
+  const cola = resto.at(-1) ?? '';
+  return `${dom}/…/${cola.slice(0, 34)}`;
+};
+
 const tam = (t, def) => /^\d{2,3}px$/.test(String(t || '')) ? t : def;
 
 // El campo extra depende de la variante. La etiqueta la ve el lector, así que
@@ -109,7 +120,7 @@ export function cuerpoRecap(s, variante, n, total) {
       ${giro}
       ${media}
       ${sello}
-      <div class="src">Fuente: ${s.fuente}</div>`;
+      <div class="src">Fuente: ${corta(s.fuente)}</div>`;
     }
 
     case 'cierreRecap': return `

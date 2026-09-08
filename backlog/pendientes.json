@@ -1,5 +1,5 @@
 {
-  "nota": "Generado el 8 de septiembre de 2026 corriendo el motor de señal sobre community.openai.com y arxiv.org, y pasando los candidatos por los cuatro filtros de 05-MOTOR-DE-SENAL.md. Se descartaron por G4 (duplicado) 'olvida la conversación' (ya es c02) y 'números mal en hojas' (ya es s02). Cada tema trae la URL del hilo donde alguien lo sufre.",
+  "nota": "Generado el 8 de septiembre de 2026 con el motor de senal, y REVISADO por recencia el mismo dia aplicando la regla de las dos senales de 05-MOTOR-DE-SENAL.md. Techo del dia: 1395147 (anuncio de GPT-6 Astra). Solo t01 esta verificado como reciente. Los otros seis llevan `estado: por verificar` y su distancia al techo: son sintomas reales pero los hilos que los documentan son de la era GPT-4, y el sintoma puede estar arreglado. Antes de producir cualquiera de ellos, busca la version actual del mismo sintoma con el modelo de hoy. Si no existe, el sintoma probablemente ya no ocurre y el tema se cae.",
   "ejemplo": {
     "id": "ejemplo",
     "titulo": "Cómo se llama la idea, en una frase",
@@ -16,10 +16,11 @@
       "carril": "largo",
       "pilar": 1,
       "arreglo": "Lo que está en medio del documento se lee peor que lo del principio y el final. La atención se diluye conforme crece el texto, así que el dato del centro pesa menos aunque esté ahí.",
-      "sintoma": "Le subes un PDF de 40 páginas, te resume las primeras 6 y jura que lo leyó completo",
-      "evidencia": "https://community.openai.com/t/force-chatgpt-to-read-an-entire-long-pdf/788955",
+      "sintoma": "Le subes un documento largo y usa solo una parte — y en septiembre de 2026 la gente se sigue quejando de lo mismo con GPT-5.6",
+      "evidencia": "https://community.openai.com/t/before-astra-launches-please-acknowledge-and-fix-the-gpt-5-6-long-context-file-thinking-and-reliability-regressions-affecting-paying-users/1394745",
       "mecanismo_fuente": "https://arxiv.org/abs/2307.03172",
-      "notas": "El paper es 'Lost in the Middle' (Liu et al.). Ojo con el puente: hay que reproducirlo poniendo el mismo dato al principio, en medio y al final del mismo documento."
+      "notas": "El paper del mecanismo es Lost in the Middle (arxiv 2307.03172, julio 2023) — el mecanismo no caduca, pero el SINTOMA hay que anclarlo a un hilo actual, y este lo es. Segunda evidencia: 1391829 \"Why is GPT-5.6 failing long-context tasks?\".",
+      "recencia": "hilo 1394745, a 402 del techo (1395147). Ancla de calendario en el titulo: \"before Astra launches\". VERIFICADO RECIENTE."
     },
     {
       "id": "t02",
@@ -29,7 +30,9 @@
       "arreglo": "No tiene forma de trabajar entre tus mensajes: solo existe mientras te responde. Cuando dice 'te aviso cuando termine', está prediciendo la frase que suena bien, no comprometiéndose a nada.",
       "sintoma": "«Dame unos minutos y te lo mando» y no vuelve nunca",
       "evidencia": "https://community.openai.com/t/chatgpt-promises-to-come-back-but-never-does/1155456",
-      "notas": "Corto: hay arreglo concreto — pedir el resultado en el mismo mensaje, no una promesa."
+      "notas": "Corto: hay arreglo concreto — pedir el resultado en el mismo mensaje, no una promesa.",
+      "recencia": "hilo 1155456, a 239,691 del techo (1395147). SIN VERIFICAR RECIENTE: Buscar la version con GPT-5.6 o Astra antes de producirlo.",
+      "estado": "por verificar"
     },
     {
       "id": "t03",
@@ -39,7 +42,9 @@
       "arreglo": "Generar un archivo y describir un archivo son cosas distintas. Cuando no puede crearlo de verdad, describe uno — y el resultado se ve como un enlace roto o una hoja vacía.",
       "sintoma": "Te promete el .xlsx, aparece el enlace, y al abrirlo no hay nada",
       "evidencia": "https://community.openai.com/t/file-creation-excel-spreadsheet/864609",
-      "notas": "Verificar primero que el síntoma siga vigente: puede estar arreglado en las versiones nuevas."
+      "notas": "Verificar primero que el síntoma siga vigente: puede estar arreglado en las versiones nuevas.",
+      "recencia": "hilo 864609, a 530,538 del techo (1395147). SIN VERIFICAR RECIENTE: El hilo menciona \"4-turbo instead of 4-o\": era de GPT-4. Probablemente arreglado.",
+      "estado": "por verificar"
     },
     {
       "id": "t04",
@@ -49,7 +54,9 @@
       "arreglo": "Las instrucciones no son una configuración: son texto más, en la misma cola que todo lo demás. Conforme la conversación crece compiten con lo reciente, y lo reciente pesa más porque está más cerca.",
       "sintoma": "Pusiste «nunca uses viñetas» en las instrucciones y a los tres mensajes vuelven las viñetas",
       "evidencia": "https://community.openai.com/t/how-to-solve-the-problem-of-forgetting-custom-instructions/933285",
-      "notas": "Distinto de c02: c02 explica que se cae lo viejo; esto explica que las instrucciones NUNCA fueron especiales, solo texto."
+      "notas": "Distinto de c02: c02 explica que se cae lo viejo; esto explica que las instrucciones NUNCA fueron especiales, solo texto.",
+      "recencia": "hilo 933285, a 461,862 del techo (1395147). SIN VERIFICAR RECIENTE: Todos los hilos de instrucciones ignoradas que encontre son de la era GPT-4/custom GPTs.",
+      "estado": "por verificar"
     },
     {
       "id": "t05",
@@ -59,7 +66,9 @@
       "arreglo": "Traduce palabra por palabra la estructura del inglés en vez de reescribir la idea en español. Y el español que aprendió es el promedio de todos: ni el de México ni el de España.",
       "sintoma": "Lees el texto traducido y sabes que no lo escribió alguien de aquí",
       "evidencia": "https://arxiv.org/pdf/2407.03658",
-      "notas": "Corto: hay arreglo claro — pedir que reescriba para un lector de tu país, con un ejemplo de cómo hablas."
+      "notas": "Corto: hay arreglo claro — pedir que reescriba para un lector de tu país, con un ejemplo de cómo hablas.",
+      "recencia": "arxiv 2407.03658 = julio de 2024, mas de un ano. SIN VERIFICAR RECIENTE: el paper mide GPT-4, no los modelos de hoy. Buscar si el sintoma sigue con Astra o Gemini 3.8.",
+      "estado": "por verificar"
     },
     {
       "id": "t06",
@@ -69,7 +78,9 @@
       "arreglo": "El generador de imágenes no escribe letras: dibuja formas que se parecen a letras. No sabe deletrear porque no está leyendo, está pintando.",
       "sintoma": "Pides una portada con una palabra y sale escrita mal, o con letras inventadas",
       "evidencia": "https://community.openai.com/t/dall-e-is-illiterate-with-the-text-it-adds-in-images/570654",
-      "notas": "Ojo con la recencia: los modelos nuevos mejoraron mucho en esto. Verificar que el síntoma siga vigente antes de producirlo."
+      "notas": "Ojo con la recencia: los modelos nuevos mejoraron mucho en esto. Verificar que el síntoma siga vigente antes de producirlo.",
+      "recencia": "hilo 570654, a 824,493 del techo (1395147). SIN VERIFICAR RECIENTE: El mas viejo de todos. Los generadores de imagenes mejoraron mucho en texto desde entonces.",
+      "estado": "por verificar"
     },
     {
       "id": "t07",
@@ -79,7 +90,9 @@
       "arreglo": "Una instrucción negativa le obliga a tener el concepto presente para evitarlo, y tenerlo presente sube su probabilidad. Decir «no menciones el precio» pone la palabra precio en la conversación.",
       "sintoma": "«No menciones el retraso» y en el primer párrafo menciona el retraso",
       "evidencia": "https://community.openai.com/t/completely-ignoring-prompt-rules-despite-clearly-setting-rules-that-cannot-be-overseen-help-please/1261246",
-      "notas": "Corto: el arreglo es decirle qué SÍ hacer en vez de qué no. Verificar que no duplique el arreglo de c04 (prompt = contexto)."
+      "notas": "Corto: el arreglo es decirle qué SÍ hacer en vez de qué no. Verificar que no duplique el arreglo de c04 (prompt = contexto).",
+      "recencia": "hilo 1261246, a 133,901 del techo (1395147). SIN VERIFICAR RECIENTE: El mas cercano al techo de los pendientes, pero sin ancla de calendario propia.",
+      "estado": "por verificar"
     }
   ]
 }

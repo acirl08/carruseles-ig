@@ -38,6 +38,17 @@ for (const [i, t] of (pend.temas ?? []).entries()) {
   for (const campo of ['id', 'titulo', 'carril', 'arreglo']) {
     if (!t[campo] || !String(t[campo]).trim()) h.push(`${donde}: falta "${campo}"`);
   }
+  // Recencia: un síntoma real de hace un año no es noticia, y publicar sobre un
+  // fallo ya arreglado es peor que no publicar. El manual documenta que esto ya
+  // pasó: se etiquetaron como recientes tres hilos de febrero de 2025.
+  // No se calcula la fecha —los IDs del foro no crecen a ritmo constante, y
+  // convertir distancia en días es justo el error que costó aquella vez—: se
+  // exige que alguien haya mirado y lo diga.
+  if (!t.recencia)
+    h.push(`${donde}: falta "recencia". Di contra qué techo lo comprobaste y si el síntoma sigue vivo`);
+  else if (/SIN VERIFICAR/i.test(t.recencia) && t.estado !== 'por verificar')
+    h.push(`${donde}: la recencia dice SIN VERIFICAR pero no está marcado "estado": "por verificar"`);
+
   if (t.carril && !['largo', 'corto'].includes(t.carril))
     h.push(`${donde}: carril "${t.carril}" — solo vale "largo" o "corto"`);
   if (t.id) {

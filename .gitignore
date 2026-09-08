@@ -11,3 +11,6 @@ entorno.sh
 build/
 out/
 corto/pruebas/.tmp/
+
+# la ingesta se regenera: no se versiona el crudo
+fuentes/crudo/

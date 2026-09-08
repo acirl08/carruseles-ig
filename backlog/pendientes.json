@@ -1,5 +1,5 @@
 {
-  "nota": "VACÍO A PROPÓSITO. Los 22 cortos pendientes y el backlog de Pilar 2 no están en ningún sitio alcanzable — es el hueco 1 de 13-HUECOS. Esta es la estructura; el contenido lo pone Isabela. Mientras 'temas' esté vacío, el motor de señal debe decir en la entrega que comparó con el fondo abierto.",
+  "nota": "Generado el 8 de septiembre de 2026 corriendo el motor de señal sobre community.openai.com y arxiv.org, y pasando los candidatos por los cuatro filtros de 05-MOTOR-DE-SENAL.md. Se descartaron por G4 (duplicado) 'olvida la conversación' (ya es c02) y 'números mal en hojas' (ya es s02). Cada tema trae la URL del hilo donde alguien lo sufre.",
   "ejemplo": {
     "id": "ejemplo",
     "titulo": "Cómo se llama la idea, en una frase",
@@ -9,5 +9,37 @@
     "sintoma": "Lo que el lector vive y reconoce, en sus palabras",
     "notas": "Lo que haga falta recordar cuando llegue su turno"
   },
-  "temas": []
+  "temas": [
+    {
+      "id": "t01",
+      "titulo": "Dice que leyó tu documento entero y solo usó el principio",
+      "carril": "largo",
+      "pilar": 1,
+      "arreglo": "Lo que está en medio del documento se lee peor que lo del principio y el final. La atención se diluye conforme crece el texto, así que el dato del centro pesa menos aunque esté ahí.",
+      "sintoma": "Le subes un PDF de 40 páginas, te resume las primeras 6 y jura que lo leyó completo",
+      "evidencia": "https://community.openai.com/t/force-chatgpt-to-read-an-entire-long-pdf/788955",
+      "mecanismo_fuente": "https://arxiv.org/abs/2307.03172",
+      "notas": "El paper es 'Lost in the Middle' (Liu et al.). Ojo con el puente: hay que reproducirlo poniendo el mismo dato al principio, en medio y al final del mismo documento."
+    },
+    {
+      "id": "t02",
+      "titulo": "Te dice que ya lo hizo, y no lo hizo",
+      "carril": "corto",
+      "pilar": 1,
+      "arreglo": "No tiene forma de trabajar entre tus mensajes: solo existe mientras te responde. Cuando dice 'te aviso cuando termine', está prediciendo la frase que suena bien, no comprometiéndose a nada.",
+      "sintoma": "«Dame unos minutos y te lo mando» y no vuelve nunca",
+      "evidencia": "https://community.openai.com/t/chatgpt-promises-to-come-back-but-never-does/1155456",
+      "notas": "Corto: hay arreglo concreto — pedir el resultado en el mismo mensaje, no una promesa."
+    },
+    {
+      "id": "t03",
+      "titulo": "Le pides un Excel y te da un archivo que no abre",
+      "carril": "corto",
+      "pilar": 1,
+      "arreglo": "Generar un archivo y describir un archivo son cosas distintas. Cuando no puede crearlo de verdad, describe uno — y el resultado se ve como un enlace roto o una hoja vacía.",
+      "sintoma": "Te promete el .xlsx, aparece el enlace, y al abrirlo no hay nada",
+      "evidencia": "https://community.openai.com/t/file-creation-excel-spreadsheet/864609",
+      "notas": "Verificar primero que el síntoma siga vigente: puede estar arreglado en las versiones nuevas."
+    }
+  ]
 }

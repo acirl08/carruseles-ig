@@ -1,5 +1,5 @@
 {
-  "nota": "Generado el 7 de septiembre de 2026 desde el slide `concepto` de cada mazo, que es donde vive la definicion del mecanismo. El duplicado se detecta por el ARREGLO, no por el titulo.",
+  "nota": "Generado por actualizar.mjs el 2026-09-08 leyendo los mazos que existen. No se edita a mano: se regenera. El duplicado se detecta por el ARREGLO, no por el titulo.",
   "publicados": [
     {
       "id": "c01",
@@ -91,6 +91,34 @@
       "carril": "corto",
       "titulo": "Le explicas tu negocio otra vez cada mañana",
       "arreglo": "QUÉ HACES Y PARA QUIÉN En las palabras que usas con un cliente, no en las de tu página web. LO QUE NUNCA DICES Las palabras que te dan pena. Ahí es donde suena a otra persona. TRES EJEMPLOS TUYOS Textos reales ya enviados. Muestran el tono mejor que cualquier adjetivo."
+    },
+    {
+      "id": "r01",
+      "slug": "semana37",
+      "carril": "recap",
+      "titulo": "Lo que pasó en IA esta semana",
+      "arreglo": "EL MODELO DE OPENAI YA USA LA COMPUTADORA · GEMINI FLASH SUBE DE PRECIO EN ENERO · EL DE META PREGUNTA ANTES DE ROMPER ALGO · ANTHROPIC BAJÓ 75% EL COSTO DE RELEER · CUATRO EMPRESAS LANZARON EN SIETE DÍAS"
+    },
+    {
+      "id": "r02",
+      "slug": "mecanismo",
+      "carril": "recap",
+      "titulo": "Lo que pasó en IA esta semana",
+      "arreglo": "EL MODELO DE OPENAI YA USA LA COMPUTADORA · GEMINI FLASH SUBE DE PRECIO EN ENERO · EL DE META PREGUNTA ANTES DE ROMPER ALGO · ANTHROPIC BAJÓ 75% EL COSTO DE RELEER · CUATRO EMPRESAS LANZARON EN SIETE DÍAS"
+    },
+    {
+      "id": "r03",
+      "slug": "accionable",
+      "carril": "recap",
+      "titulo": "Lo que pasó en IA esta semana",
+      "arreglo": "EL MODELO DE OPENAI YA USA LA COMPUTADORA · GEMINI FLASH SUBE DE PRECIO EN ENERO · EL DE META PREGUNTA ANTES DE ROMPER ALGO · ANTHROPIC BAJÓ 75% EL COSTO DE RELEER"
+    },
+    {
+      "id": "r04",
+      "slug": "completo",
+      "carril": "recap",
+      "titulo": "Lo que pasó en IA esta semana",
+      "arreglo": "EL MODELO DE OPENAI YA USA LA COMPUTADORA · GEMINI FLASH SUBE DE PRECIO EN ENERO · EL DE META PREGUNTA ANTES DE ROMPER ALGO · ANTHROPIC BAJÓ 75% EL COSTO DE RELEER · CUATRO EMPRESAS LANZARON EN SIETE DÍAS · QWEN SACÓ UN MODELO QUE PUEDES DESCARGAR"
     }
   ]
 }

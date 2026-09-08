@@ -36,6 +36,20 @@ El motor de señal compara cada candidato contra **los dos** archivos. Y el dupl
 detecta por el **arreglo**, no por el titular: dos síntomas distintos con el mismo mecanismo
 son el mismo carrusel.
 
+## publicados.json se regenera, no se edita
+
+```bash
+node backlog/actualizar.mjs      # después de producir, antes de guardar
+```
+
+Lee los mazos que existen en `motor/data`, `corto/data` y `recap/data` y reconstruye la lista.
+Se escribió a mano una vez y quedó viejo en cuanto se produjo algo nuevo — y con la lista
+incompleta, `check-backlog.mjs` compara duplicados contra un universo parcial, que es
+literalmente "la criba con el fondo abierto" que `05-MOTOR-DE-SENAL.md` llama el hueco más
+grande del sistema.
+
+También avisa si un tema del backlog ya se produjo y se quedó ahí de más.
+
 ## Cómo se añade una idea
 
 Edita `pendientes.json`, corre el verificador, sube:

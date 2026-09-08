@@ -13,10 +13,19 @@ elegir tema deje de depender de qué devuelva un buscador ese día.
 | `arxiv.org` | el mecanismo, el *por qué* | búsqueda | sí, en el ID |
 | `news.ycombinator.com` | qué cambió que un negocio note | `rss` | sí |
 
-**`evolving.ai` no está aquí**, y es deliberado: es una cuenta de Instagram, no una fuente
-con feed. De ella se toma la **idea de formato** —contar qué hace la cosa, no que salió— no
-sus datos ni sus imágenes. Tomar el hecho «OpenAI sacó un modelo» es legítimo; descargar sus
-fotos de prensa no.
+### `evolvingai.io` no se puede ingerir, y comprobarlo aclaró por qué
+
+Comprobado el 8 de septiembre: el sitio responde, pero **no tiene RSS** (`/feed`, `/rss`,
+`/feed.xml`, `/atom.xml` → 404) y su `sitemap.xml` lista **dos páginas**: la portada y un
+taller. Es una landing de newsletter y eventos; el contenido vive en Instagram y en el correo,
+sin archivo público.
+
+O sea que no es una cuestión de permisos: **no hay nada que una ingesta pueda leer**.
+
+Y comprobarlo dejó claro algo útil: sus noticias salen de las mismas fuentes que ya están
+aquí —AlphaSignal, anuncios de empresas—. Lo que hacen bien no es conseguir datos, es
+**contarlos**: dicen qué hace la cosa en vez de que salió. Eso es lo que se toma de ellos, y
+está escrito como regla en `recap/SCHEMA-RECAP.md`, no copiado de sus posts.
 
 ## Lo que esto resuelve
 
